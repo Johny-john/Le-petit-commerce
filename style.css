@@ -38,10 +38,16 @@ h1{
     background-size: cover;
     background-position-y: 36%;
 }
+.img-banniere4{
+    background-image: url(img/plage.jpg);
+    background-size: cover;
+    background-position-y: 36%;
+}
 
 .collection-homme { 
     color: #ebecec;
 }
+
 .collection-femme{
     color: #ebecec
 }
