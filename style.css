@@ -28,6 +28,11 @@ h1{
     background-size: cover;
     background-position-y: 36%;
 }
+.img-banniere2{
+    background-image: url(img/hm-2.jpg);
+    background-size: cover;
+    background-position-y: 36%;
+}
 #recherche{
     float: right;
 }
@@ -66,9 +71,8 @@ background-color: rgba(233, 139, 189, 0.432); color: white;
     display: flex;
     flex-direction: right;
 }
-.mycard{
-    height: 805px;
-}
+
+
 @media(min-width:375){
 .img-banniere{
     background-size: auto;
