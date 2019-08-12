@@ -1,0 +1,373 @@
+*{
+    font-family: 'Prata', serif;
+}
+h1{
+    display: flex;
+    align-content: center
+}
+
+/*****header*******/
+.form-inline .form-control{
+    width: 50%;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(247, 29, 145);
+    
+}
+.logoFemme{
+    text-align: center
+}
+.dropdown-menu{
+   
+    background: rgb(224, 220, 220);
+    background-color:rgb(224, 220, 220);
+    border: 2px solid rgb(224, 67, 146);
+}
+.img-banniere{
+    background-image: url(img/imgf1.jpg);
+    background-size: cover;
+    background-position-y: 36%;
+}
+#recherche{
+    float: right;
+}
+canvas {
+    background-image : linear-gradient(90deg, #eee, #ccc );
+}
+#defilant {
+    width: 100%;
+    height:150px;
+}
+
+#titre {
+    text-align: center;
+    font-family: 'Jacques Francois Shadow', cursive;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 3em;
+    color: deeppink; 
+}
+
+.infos{
+background-color: rgba(233, 139, 189, 0.432); color: white;
+ padding:15px;
+ text-align: center;
+ border-bottom-width: 30px;
+
+}
+
+.card-body p{
+    color: black;
+}
+#panier{
+    margin-left: 50px;
+}
+#nav{
+    display: flex;
+    flex-direction: right;
+}
+.mycard{
+    height: 805px;
+}
+@media(min-width:375){
+.img-banniere{
+    background-size: auto;
+    background-position-x: center;
+}
+}
+
+@media(min-width:480px){
+    #titre .navbar-brand .partenaires .list-unstyled1 {
+        margin: 0 auto;
+        font-size: 1.8em; 
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    #titre .navbar-brand .partenaires .list-unstyled1 {
+        margin: 0 auto;
+        font-size: 2em; 
+    }
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #titre .navbar-brand .partenaires .list-unstyled1 {
+        margin: 0 auto;
+        font-size: 2.3em; 
+    }
+ 
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #titre .navbar-brand .partenaires .list-unstyled1 {
+        margin: 0 auto;
+        font-size: 2em; 
+    }
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #titre .navbar-brand .partenaires .list-unstyled1{
+        margin: 0 auto;
+        font-size: 3.5em; 
+    }
+}
+
+
+/*Body*/
+
+.card-body{
+    background: rgb(224, 220, 220);
+    color: deeppink; 
+}
+
+/*************************/
+.partenaires{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.partenaires li {
+    list-style-type: none;
+}
+
+.partenaires li img{
+
+  width: 100%;
+}
+.list-unstyled1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 37px;
+}
+a:hover{
+    color:deeppink;
+}
+.footer-copyright{
+    font-size: 0.5em;
+}
+/*******body femme****/
+.bodyFemme{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    border-color: white
+}
+.sousTitre{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin: 0 auto;
+
+    background: rgb(224, 220, 220);
+ 
+}
+.container1{
+margin-top: 50px;
+}
+
+
+/************************/
+input[type=text], input[type=submit] {
+    width: 60%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(76, 152, 175);
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+  /*Footer map*/
+.map-container{
+    overflow:hidden;
+    
+  
+  
+    }
+    .map-container iframe{
+        display: flex;
+    margin: 20 20;
+    height:30%;
+    width:100%;
+    position:absolute;
+    }
+/**********/
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23FF1493' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23FF1493' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+  }
+  .carousel-indicators li {
+    background-color: #FF1493;
+}
+/* description produit css*/
+
+ #fiche{
+width: 300px;
+border: 1px solid;
+margin: 10px 50px 0 10px;
+}
+.clear{
+    clear: both;
+}
+#fiche ul li{
+    display: flex;
+    list-style-type: none;
+    margin: 0 10px;
+}
+#fiche ul li img{
+    width: 100px;
+    height: 80px;
+}
+#description{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid;
+}
+#defilement{
+    position: absolute;
+    left: 100px;
+    transition: 2s;
+    
+}
+.zone1-active{position: absolute;}
+
+.zone2-active{position: absolute; left:500px; top: 0px;}
+
+.zone3-active{position: absolute; left:1000px; top: 0px;}
+
+.zone4-active{position: absolute; left:1500px; top: 0px;}
+
+.zone5-active{position: absolute; left:2000px; top: 0px;}
+
+#zone1:target #defilement{left: 0px;}
+
+#zone2:target #defilement{left: -500px;}
+
+#zone3:target #defilement{left: -1000px;}
+
+#zone4:target #defilement{left: -1500px;}
+
+#zone5:target #defilement{left: -2000px;}
+
+#espace1{
+    height: 300px;
+
+}
+#espace2{
+    width: 600px;
+    height: 500px;
+}
+
+/*Sarah css*/
+
+
+
+/**** CONTAINER1 ****/
+
+.container-index1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: rgb(224, 218, 224);
+    height: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.item1 {
+    width: 150px;
+    padding: 15px;
+}
+
+.container-index1 img {
+    width: 60px;
+    height: 60px;
+}
+
+/**** CONTAINER2 ****/
+
+.container-index2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: rgb(219, 202, 219);
+    height: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.item2 {
+    width: 150px;
+    padding: 15px;
+}
+
+.container-index2 img {
+    width: 60px;
+    height: 60px;
+}
+
+/**** CONTAINER RESA ****/
+
+.container-resa{
+    background-color: rgb(236, 219, 236);
+    padding: 15px;
+}
+
+.emailcoach{
+    border-radius: 3px;
+    height: 60px;
+    border: 1px solid #ecf1f4;
+    width: 100%;
+    padding: 0 20px;
+    font-size: 18px;
+}
+/*RESERVATIONS*/
+
+.titreresa{
+    justify-content: center;
+    padding: 15px;
+}
+
+.presentation{
+    padding: 15px;
+    text-align: center;
+}
+
+.coach img{
+    width: 150px;
+}
+
+.coach{
+    display: flex;
+    margin-bottom: 14px;
+    margin: 15px;
+    background-color: rgb(230, 227, 227);
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 5px;
+    min-height: 270px;
+}

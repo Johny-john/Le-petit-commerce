@@ -1,0 +1,52 @@
+
+.form-inline .form-control{
+  width: 450px;
+}
+/*header John */
+.bg-dark{
+    background-color: blue;
+}
+
+#monId{color: green;}
+
+.ifocop{color: red;}
+
+body{
+    margin-top: 60px;
+}
+
+/* Modification perso alert primary */
+.alert-primary {
+  color: rgba(127,0,127,1);
+  background-color: rgba(127,0,127,.3);
+  border-color: rgba(127,0,127,.6);
+}
+.alert-primary hr {
+  border-top-color: rgba(127,0,127,.6);
+}
+.alert-primary .alert-link {
+  color: #002752;
+}
+p.cl1 span{
+    font-size: 33px;
+}
+
+.container{
+    border:2px solid red;
+}
+.container-fluid{
+    border:2px solid green;
+}
+.bleu{background: blue;}
+.rouge{background: red;}
+.vert{background: green;}
+
+
+
+
+
+
+
+
+
+

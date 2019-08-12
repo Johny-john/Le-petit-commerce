@@ -1,0 +1,25 @@
+// MESSAGE DEFILANT
+
+var canevas = document.querySelector('canvas');
+
+var contexte = canevas.getContext('2d'); 
+
+var X = canevas.width ; 
+
+var Y = canevas.height; 
+
+contexte.textAlign ='left'; 
+
+contexte.textBaseline = 'middle'; 
+
+contexte.font = " bold 30px arial" ; 
+
+contexte.strokeStyle ='#000'; 
+
+contexte.lineWidth = 1; 
+
+var x = X ; y = 50; setInterval(deplacement,20) ; 
+
+function deplacement() { contexte.clearRect(0,0,X,Y); x = x-2 ; if(x <-750) x = X ; 
+
+contexte.strokeText('OFFRE DE LANCEMENT : -30% sur toute la collection',x, y); }
