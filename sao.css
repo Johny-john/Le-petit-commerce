@@ -1,0 +1,276 @@
+/* Page qui sommes nous */
+
+.img-q {
+    background-image: url("img/QuisommesNous.jpg");
+    height: 300px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-bottom: 25px;
+}
+
+.quisomme {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 32px;
+}
+.rectangle {
+    width: 12px;
+    height: 60px;
+    background: #000;
+    float: left;
+    margin-right: 15px;
+}
+.trait {
+    border-bottom: 1px solid #666;
+    clear: both;
+}
+.lisret2 {
+    margin-top: 50px;
+}
+
+.deco-lpc {
+    font-weight: 600;
+}
+.rectangle2 {
+    width: 12px;
+    height: 60px;
+    background: #000;
+    float: right;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+#qsm p {
+    text-align: justify;
+}
+
+.blocmap {
+    height: auto;
+    width: 85%;
+    margin: auto;
+}
+.img-q2 {
+    background-image: url("img/map.webp");
+    height: 692px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-bottom: 25px;
+}
+#qsm2 p {
+    text-align: center;
+    color: grey;
+}
+
+.img-q3 {
+    background-image: url("img/rencontre1.webp");
+    height: 321px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+.img-q4 {
+    background-image: url("img/cizo.jpg");
+    height: 321px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+.img-q5 {
+    background-image: url("img/mesure.jpg");
+    height: 321px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+
+.img-q6 {
+    background-image: url("img/shooting.jpg");
+    height: 321px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+
+.img-q7 {
+    background-image: url("img/usine.jpg");
+    height: 321px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+.img-q8 {
+    background-image: url("img/operatrice.jpg");
+    height: 321px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 990px) {
+    .img-q3 {
+        background-image: url("img/palnDeTravail65.PNG");
+        height: 260px;
+
+        background-size: auto;
+        background-repeat: no-repeat;
+        margin-bottom: 25px;
+    }
+    .img-q2 {
+        background-image: url("img/map.webp");
+        height: 260px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 25px;
+    }
+}
+
+.decoArt {
+    display: flex;
+}
+
+.decoArt2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.myDot1 {
+    width: 30px;
+    height: 1px;
+    background: #000;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.myDot1b {
+    width: 30px;
+    height: 1px;
+    background: #000;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.myDot2 {
+    width: 30px;
+    height: 1px;
+    background: #000;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.num1 {
+    font-size: 33px;
+    line-height: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blockInArticle {
+    margin-top: 75px;
+    margin-left: 15px;
+}
+
+.titreArticle {
+    margin-top: 20px;
+}
+.titreArticle2 {
+    margin-top: 20px;
+    text-align: right;
+}
+.txtArt {
+    margin-top: 15px;
+    text-align: justify;
+}
+.fleche {
+    display: flex;
+}
+.fleche2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.decoFleche:hover {
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
+
+.decoFleche {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.centreArrow {
+    margin-left: 5px;
+}
+
+.addInfo {
+    margin-left: 15px;
+    border-bottom: 1px solid black;
+}
+
+.addInfo2 {
+    margin-right: 15px;
+    border-bottom: 1px solid black;
+}
+
+.addInfo:hover {
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
+.addInfo2:hover {
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
+.tMaj {
+    float: left;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    font-size: 41px;
+    line-height: 10px;
+}
+.articleDisign {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.rowlog {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.blockArticle {
+    margin-bottom: 25px;
+}
+#form34:hover {
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
+#form29:hover {
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
+#form32:hover {
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
+#form8:hover {
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
+.enjoy:hover {
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
+#modalContactForm {
+    background-image: url("http://lorempixel.com/400/200/");
+}
