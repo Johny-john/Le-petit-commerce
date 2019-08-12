@@ -33,8 +33,17 @@ h1{
     background-size: cover;
     background-position-y: 36%;
 }
+.img-banniere3{
+    background-image: url(img/ptlF.jpg);
+    background-size: cover;
+    background-position-y: 36%;
+}
+
 .collection-homme { 
     color: #ebecec;
+}
+.collection-femme{
+    color: #ebecec
 }
 #recherche{
     float: right;
