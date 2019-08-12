@@ -29,9 +29,12 @@ h1{
     background-position-y: 36%;
 }
 .img-banniere2{
-    background-image: url(img/hm-2.jpg);
+    background-image: url(img/imgh1.jpg);
     background-size: cover;
     background-position-y: 36%;
+}
+.collection-homme { 
+    color: #ebecec;
 }
 #recherche{
     float: right;
