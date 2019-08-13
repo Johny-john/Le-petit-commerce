@@ -287,11 +287,10 @@ border-radius: 15px;
 /* modal formulaire de contact */
 
 .modal-content{    
-    background-image: url("http://lorempixel.com/1200/1080/")!important;
-    background-color: rgb(255, 223, 228);
+    background-image: url("img/suscrib.jpg")!important;
 }
 #modalContactForm{
-    background-image: url("http://lorempixel.com/800/600/")!important;
+    background-image: url("img/indexphoto.png")!important;
 }
 
 /*******************************************/
