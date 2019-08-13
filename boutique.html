@@ -1,60 +1,167 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="sao.css">
-    <link rel="stylesheet" href="sarah.css">
-    <link href="https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="femme.html">
-    <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d90bdf570c.js"></script>
-    <title>Qui sommes nous?</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="sao.css">
+        <link rel="stylesheet" href="sarah.css">
+        <link
+            href="https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="femme.html">
+        <link
+            href="https://fonts.googleapis.com/css?family=Prata&display=swap"
+            rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d90bdf570c.js"></script>
+        <title>Qui sommes nous?</title>
+    </head>
 
-<body>
+    <body>
+        <!--Navbar--------->
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
 
-    <div class="containerLogx">
-        <div class="rowlog justify-content-end">
-            <div class="span4 col-6 offset4 well">
-                <legend></legend>
-                <div class="alert alert-error"></div>
-                <form method="POST" action="" accept-charset="UTF-8">
-                    <input type="text" id="username" class="span4" name="username" placeholder="Username">
-                    <input type="password" id="password" class="span4" name="password" placeholder="Password">
-                    <label class="checkbox">
-                        <input type="checkbox" name="remember" value="1">
-                        Remember Me
-                    </label>
-                    <button type="submit" name="submit" class="btn btn-info">Sign in</button>
+                <li class="nav-item dropdown">
+                    <a
+                        class="nav-link dropdown-toggle"
+                        href="femme.html"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">Femme</a>
+                    <div class="dropdown-menu flex-row" aria-labelledby="navbarDropdown">
+                        <div class="col">
+                            <a class="dropdown-item" href="femme.html">Collection femmes</a>
+                            <a class="dropdown-item" href="pantalon-femme.html">Pantalons</a>
+                            <a class="dropdown-item" href="robe-femme.html">Robes</a>
+                            <a class="dropdown-item" href="sac-femme.html">Sacs</a>
+                            <a class="dropdown-item" href="chaussure-femme.html">Chaussures</a>
+                            <a class="dropdown-item" href="maillot-femme.html">Maillot bain</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a
+                        class="nav-link dropdown-toggle"
+                        href="homme.html"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">Hommes</a>
+                    <div class="dropdown-menu flex-row" aria-labelledby="navbarDropdown">
+                        <div class="col">
+                            <a class="dropdown-item" href="homme.html">Collection hommes</a>
+                            <a class="dropdown-item" href="pantalon-homme.html">Pantalons</a>
+                            <a class="dropdown-item" href="tshirt-homme.html">T-shirts</a>
+                            <a class="dropdown-item" href="veste-homme.html">Vestes</a>
+                            <a class="dropdown-item" href="chaussure-homme.html">Chaussures</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a
+                        class="nav-link dropdown-toggle"
+                        href="acessoire.html"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                        Accessoires
+                    </a>
+                    <div class="dropdown-menu flex-row" aria-labelledby="navbarDropdown">
+                        <div class="col">
+                            <a class="dropdown-item" href="lunette.html">Lunettes</a>
+                            <a class="dropdown-item" href="montre.html">Montres</a>
+                            <a class="dropdown-item" href="ceinture.html">Ceintures</a>
+                            <a class="dropdown-item" href="bijoux.html">Bijoux</a>
+                            <a class="dropdown-item" href="chapeaux.html">Chapeaux</a>
+                        </div>
+                    </div>
+                </li>
+
+                <!--bouton recherche------->
+                <form class="form-inline my-2 my-lg-2">
+                    <input
+                        id="recherche"
+                        class="form-control mr-sm-2 m-lg-2"
+                        type="search"
+                        placeholder="Je recherche ....."
+                        aria-label="Search">
+                    <!--bouton GO-->
+                    <button
+                        class="btn btn-outline-light my-2 my-sm-1 "
+                        type="submit"
+                        style="background-color: deeppink; color: white;">Go !
+                    </button>
+                    <!--Bouton panier-->
+                    <a href="#" class="btn"><img src="img/panier.png" alt="panier"></a>
                 </form>
-            </div>
+            </ul>
         </div>
     </div>
-    <!----------header--------->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"
-                style="display: flex; width: 160px; height: 160px;"></a>
+</nav>
 
-        <div id="titre">Le Petit Commerce</div>
-        <ul>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </ul>
-    </nav>
+<!----------header--------->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img
+        src="img/logo.png"
+        alt="logo"
+        style="display: flex; width: 160px; height: 160px;"></a>
 
-    <div class="container" id="qsm">
-        <p class="quisomme">
-            Qui sommes nous?</p>
-        <div class="img-q"></div>
-        <div class="lisret">
-            <div class="rectangle"></div>
-            <h3>
-                A propos de nous</h3>
+    <div id="titre">Le Petit Commerce</div>
+    <ul>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </ul>
+</nav>
+
+<div class="container" id="qsm">
+    <p class="quisomme">
+        Qui sommes nous?</p>
+    <div class="img-q"></div>
+    <div class="lisret">
+        <div class="rectangle"></div>
+        <h3>
+            A propos de nous</h3>
+        <p class="apropos">
+            <span class="deco-lpc"></span>Le Petit Commerce est une plateforme
+            internationale de vente de vêtements en ligne de type B2C. La société se
+            spécialise principalement dans le prêt-à-porter pour femme, mais elle propose
+            également des vêtements pour hommes, des vêtements pour enfants, des
+            accessoires, des chaussures, des sacs et d’autres articles de mode.
+            <span class="deco-lpc"></span>Le Petit Commerce cible principalement l'Europe,
+            les États-Unis, l'Australie et le Moyen-Orient, mais également d'autres marchés
+            de consommation. La marque a été fondée en octobre 2008 et depuis lors, elle a
+            mis un point d'honneur à respecter sa philosophie selon laquelle "tout le monde
+            doit être en mesure d'apprécier la beauté de la mode". Ses activités couvrent
+            plus de 220 pays et régions du monde.</p>
+        <div class="trait"></div>
+
+        <div class="lisret2">
+            <!-- <div class="rectangle"></div> -->
+            <!-- <h3> A propos de nous</h3> -->
             <p class="apropos">
                 <span class="deco-lpc"></span>Le Petit Commerce est une plateforme
                 internationale de vente de vêtements en ligne de type B2C. La société se
@@ -70,8 +177,8 @@
             <div class="trait"></div>
 
             <div class="lisret2">
-                <!-- <div class="rectangle"></div> -->
-                <!-- <h3> A propos de nous</h3> -->
+                <div class="rectangle2"></div>
+
                 <p class="apropos">
                     <span class="deco-lpc"></span>Le Petit Commerce est une plateforme
                     internationale de vente de vêtements en ligne de type B2C. La société se
@@ -80,359 +187,361 @@
                     accessoires, des chaussures, des sacs et d’autres articles de mode.
                     <span class="deco-lpc"></span>Le Petit Commerce cible principalement l'Europe,
                     les États-Unis, l'Australie et le Moyen-Orient, mais également d'autres marchés
-                    de consommation. La marque a été fondée en octobre 2008 et depuis lors, elle a
-                    mis un point d'honneur à respecter sa philosophie selon laquelle "tout le monde
-                    doit être en mesure d'apprécier la beauté de la mode". Ses activités couvrent
-                    plus de 220 pays et régions du monde.</p>
-                <div class="trait"></div>
-
-                <div class="lisret2">
-                    <div class="rectangle2"></div>
-
-                    <p class="apropos">
-                        <span class="deco-lpc"></span>Le Petit Commerce est une plateforme
-                        internationale de vente de vêtements en ligne de type B2C. La société se
-                        spécialise principalement dans le prêt-à-porter pour femme, mais elle propose
-                        également des vêtements pour hommes, des vêtements pour enfants, des
-                        accessoires, des chaussures, des sacs et d’autres articles de mode.
-                        <span class="deco-lpc"></span>Le Petit Commerce cible principalement l'Europe,
-                        les États-Unis, l'Australie et le Moyen-Orient, mais également d'autres marchés
-                        de consommation.</p>
-
-                </div>
+                    de consommation.</p>
 
             </div>
 
+        </div>
+
+    </div>
+</div>
+<div class="container"></div>
+<div class="blocmap">
+    <div class="img-q2"></div>
+</div>
+</div>
+<div class="container">
+<p class="quisomme">
+    RENCONTREZ NOUS</p>
+<div class="row blockArticle">
+    <div class="col-lg-6 col-md-12 col-sm-12 img-q3"></div>
+    <div class="col-lg-6 col-md-12 col-sm-12 article">
+        <div class="blockInArticle">
+            <div class="decoArt">
+                <span class="myDot1">&nbsp</span>
+                <p class="num1">1</p>
+                <span class="myDot2">&nbsp</span>
+            </div>
+            <div class="titreArticle">
+                <span class="articleDisign">Design des articles</span>
+                <p class="txtArt">
+                    <span class="tMaj">T</span>out commence par une idée émise par l'un de nos
+                    créateurs. Un article prend vie avant même que le créateur ne mette son idée sur
+                    papier.</p>
+            </div>
+            <div class="fleche">
+                <div class="decoFleche" style="height: 25px; width:25px">
+                    <i class="fas fa-question centreArrow"></i>
+                </div>
+                <p class="addInfo">EN SAVOIR PLUS</p>
+            </div>
         </div>
     </div>
-    <div class="container"></div>
-    <div class="blocmap">
-        <div class="img-q2"></div>
-    </div>
-    </div>
-    <div class="container">
-        <p class="quisomme">
-            RENCONTREZ NOUS</p>
-        <div class="row blockArticle">
-            <div class="col-lg-6 col-md-12 col-sm-12 img-q3"></div>
-            <div class="col-lg-6 col-md-12 col-sm-12 article">
-                <div class="blockInArticle">
-                    <div class="decoArt">
-                        <span class="myDot1">&nbsp</span>
-                        <p class="num1">1</p>
-                        <span class="myDot2">&nbsp</span>
-                    </div>
-                    <div class="titreArticle">
-                        <span class="articleDisign">Design des articles</span>
-                        <p class="txtArt">
-                            <span class="tMaj">T</span>out commence par une idée émise par l'un de nos
-                            créateurs. Un article prend vie avant même que le créateur ne mette son idée sur
-                            papier.</p>
-                    </div>
-                    <div class="fleche">
-                        <div class="decoFleche" style="height: 25px; width:25px">
-                            <i class="fas fa-question centreArrow"></i>
-                        </div>
-                        <p class="addInfo">EN SAVOIR PLUS</p>
-                    </div>
-                </div>
+</div>
+<!-- FIN DE LA ROW -->
+
+<!-- Debut du deuxieme Article -->
+<div class="row blockArticle">
+    <div class="col-lg-6 col-md-12 col-sm-12 article">
+        <div class="blockInArticle">
+            <div class="decoArt2">
+                <span class="myDot1b">&nbsp</span>
+                <p class="num1">2</p>
+                <span class="myDot2">&nbsp</span>
             </div>
-        </div>
-        <!-- FIN DE LA ROW -->
-
-        <!-- Debut du deuxieme Article -->
-        <div class="row blockArticle">
-            <div class="col-lg-6 col-md-12 col-sm-12 article">
-                <div class="blockInArticle">
-                    <div class="decoArt2">
-                        <span class="myDot1b">&nbsp</span>
-                        <p class="num1">2</p>
-                        <span class="myDot2">&nbsp</span>
-                    </div>
-                    <div class="titreArticle2">
-                        <span class="articleDisign">Design des articles</span>
-                        <p class="txtArt">
-                            <span class="tMaj">T</span>ous nos produits sont créés grâce à des machines de
-                            haute précision afin de reproduire chaque pièce dans ses moindres détails. Nous
-                            exigeons la qualité, c'est pourquoi certains de nos articles sont parfois conçus
-                            manuellement par des professionnels de couture.</p>
-                    </div>
-                    <div class="fleche2">
-                        <div class="decoFleche" style="height: 25px; width:25px">
-                            <i class="fas fa-question centreArrow"></i>
-                        </div>
-                        <p class="addInfo2">EN SAVOIR PLUS</p>
-                    </div>
-                </div>
+            <div class="titreArticle2">
+                <span class="articleDisign">Design des articles</span>
+                <p class="txtArt">
+                    <span class="tMaj">T</span>ous nos produits sont créés grâce à des machines de
+                    haute précision afin de reproduire chaque pièce dans ses moindres détails. Nous
+                    exigeons la qualité, c'est pourquoi certains de nos articles sont parfois conçus
+                    manuellement par des professionnels de couture.</p>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 img-q4"></div>
-        </div>
-
-        <!-- Fin du deuxieme Article -->
-
-        <!-- Debut du troisiemme Article -->
-        <div class="row blockArticle">
-            <div class="col-lg-6 col-md-12 col-sm-12 img-q5"></div>
-            <div class="col-lg-6 col-md-12 col-sm-12 article">
-                <div class="blockInArticle">
-                    <div class="decoArt">
-                        <span class="myDot1">&nbsp</span>
-                        <p class="num1">3</p>
-                        <span class="myDot2">&nbsp</span>
-                    </div>
-                    <div class="titreArticle">
-                        <span class="articleDisign">Design des articles</span>
-                        <p class="txtArt">
-                            <span class="tMaj">C'</span>est après divers examens et inspections que nos
-                            articles atteignent l'objectif dont nous sommes si fiers: des produits de
-                            qualité et suivant les dernières tendances!</p>
-                    </div>
-                    <div class="fleche">
-                        <div class="decoFleche" style="height: 25px; width:25px">
-                            <i class="fas fa-question centreArrow"></i>
-                        </div>
-                        <p class="addInfo">EN SAVOIR PLUS</p>
-                    </div>
+            <div class="fleche2">
+                <div class="decoFleche" style="height: 25px; width:25px">
+                    <i class="fas fa-question centreArrow"></i>
                 </div>
+                <p class="addInfo2">EN SAVOIR PLUS</p>
             </div>
-        </div>
-        <!-- FIN DE LA ROW -->
-
-        <!-- Debut du troisiemme Article -->
-        <div class="row blockArticle">
-            <div class="col-lg-6 col-md-12 col-sm-12 article">
-                <div class="blockInArticle">
-                    <div class="decoArt2">
-                        <span class="myDot1b">&nbsp</span>
-                        <p class="num1">4</p>
-                        <span class="myDot2">&nbsp</span>
-                    </div>
-                    <div class="titreArticle2">
-                        <span class="articleDisign">Design des articles</span>
-                        <p class="txtArt">
-                            <span class="tMaj">G</span>râce à une étroite collaboration avec nos
-                            photographes et mannequins, nous pouvons capturer chaque produit dans ses
-                            moindres détails afin que vous en ayez un aperçu authentique avant de passer à
-                            l'achat.
-                        </p>
-                    </div>
-                    <div class="fleche2">
-                        <div class="decoFleche" style="height: 25px; width:25px">
-                            <i class="fas fa-question centreArrow"></i>
-                        </div>
-                        <p class="addInfo2">EN SAVOIR PLUS</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 img-q6"></div>
-        </div>
-        <!-- FIN DE LA ROW -->
-
-        <!-- Debut du quatriemme Article -->
-        <div class="row blockArticle">
-            <div class="col-lg-6 col-md-12 col-sm-12 img-q7"></div>
-            <div class="col-lg-6 col-md-12 col-sm-12 article">
-                <div class="blockInArticle">
-                    <div class="decoArt">
-                        <span class="myDot1">&nbsp</span>
-                        <p class="num1">5</p>
-                        <span class="myDot2">&nbsp</span>
-                    </div>
-                    <div class="titreArticle">
-                        <span class="articleDisign">Design des articles</span>
-                        <p class="txtArt">
-                            <span class="tMaj">A</span>près la création, la production et le conditionnement
-                            de nos articles, ces derniers sont chargés dans un avion et entament leur voyage
-                            pour traverser le monde et atterrir chez vous.
-                        </p>
-                    </div>
-                    <div class="fleche">
-                        <div class="decoFleche" style="height: 25px; width:25px">
-                            <i class="fas fa-question centreArrow"></i>
-                        </div>
-                        <p class="addInfo">EN SAVOIR PLUS</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- FIN DE LA ROW -->
-
-        <!-- Debut du cinqieme Article -->
-        <div class="row blockArticle">
-            <div class="col-lg-6 col-md-12 col-sm-12 article">
-                <div class="blockInArticle">
-                    <div class="decoArt2">
-                        <span class="myDot1b">&nbsp</span>
-                        <p class="num1">6</p>
-                        <span class="myDot2">&nbsp</span>
-                    </div>
-                    <div class="titreArticle2">
-                        <span class="articleDisign">Design des articles</span>
-                        <p class="txtArt">
-                            <span class="tMaj">V</span>ous avez certainement des questions à nous poser. Ne
-                            vous en faites pas, on s'occupe de tout. Nos agents vous proposent un service
-                            professionnel dans les langues suivantes: l'anglais, le français, l'allemand, le
-                            russe et l'arabe.
-                        </p>
-                    </div>
-                    <div class="fleche2">
-                        <div class="decoFleche" style="height: 25px; width:25px">
-                            <i class="fas fa-question centreArrow"></i>
-                        </div>
-                        <p class="addInfo2">EN SAVOIR PLUS</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 img-q8"></div>
-        </div>
-        <div class="container-fluid">
-            <ul class="partenaires row">
-
-                <!-- Partners Payment -->
-                <li class="col">
-                    <a class="cb" href="linkSite"></a>
-                    <img src="img/logo cb.PNG" alt="carte bleu"></a>
-                </li>
-
-                <li class="col">
-                    <a class="paylib" href="linkSite"></a>
-                    <img src="img/paylib logo.png" alt="paylib"></a>
-                </li>
-                <li class="col">
-                    <a class="paypal" href="linkSite">
-                        <img src="img/Logo-PayPal.png" alt="paypal"></a>
-                </li>
-
-                <li class="col">
-                    <a class="mastercard" href="linkSite">
-                        <img src="img/MasterCard_Logo.svg.png" alt=""></a>
-                </li>
-                <li class="col">
-                    <a class="maestro" href="linkSite">
-                        <img src="img/2000px-Maestro_1992_logo.svg.png" alt="maestro"></a>
-                </li>
-
-                <li class="col">
-                    <a class="cheque" href="linkSite">
-                        <img src="img/cheque-cadeau logo.png" alt="cheque"></a>
-                </li>
-                <li class="col">
-                    <a class="illicado" href="linkSite"></a>
-                    <img src="img/logo-illicado.jpg" alt="illicado"></a>
-                </li>
-                <!-- Partners Delivery -->
-                <li class="col">
-                    <a class="chronopost" href="linkSite">
-                        <img src="img/logo-chronopost-web.jpg" alt="chronopost"></a>
-                </li>
-            </ul>
         </div>
     </div>
+    <div class="col-lg-6 col-md-12 col-sm-12 img-q4"></div>
+</div>
 
-    <footer>
+<!-- Fin du deuxieme Article -->
 
-        <form action="/action_page.php">
-            <div class="container">
-                <h2>Souscription Newsletter</h2>
-                <p>Abonnées vous à notre Newsletter pour toute promotions de derniere minutes</p>
+<!-- Debut du troisiemme Article -->
+<div class="row blockArticle">
+    <div class="col-lg-6 col-md-12 col-sm-12 img-q5"></div>
+    <div class="col-lg-6 col-md-12 col-sm-12 article">
+        <div class="blockInArticle">
+            <div class="decoArt">
+                <span class="myDot1">&nbsp</span>
+                <p class="num1">3</p>
+                <span class="myDot2">&nbsp</span>
             </div>
-
-            <div class="container">
-                <input id="name-new" type="text" placeholder="Nom, prénom" name="NOM" required="required">
-                <input id="email-news" type="email" placeholder="Adresse mail" name="mail" required="required">
-                <label>
-                    <input type="checkbox" checked="checked" name="Validez">
-                    Newsletter
-                </label>
+            <div class="titreArticle">
+                <span class="articleDisign">Design des articles</span>
+                <p class="txtArt">
+                    <span class="tMaj">C'</span>est après divers examens et inspections que nos
+                    articles atteignent l'objectif dont nous sommes si fiers: des produits de
+                    qualité et suivant les dernières tendances!</p>
             </div>
-
-            <div class="container">
-                <input type="submit" value="Subscribe"></div>
-            <div class="footer-copyright text-center py-3">© 2019 Copyright IFOCOP-DIW52
-            </div>
-
-            <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header text-center">
-                            <h4 class="modal-title w-100 font-weight-bold">Ecrivez Nous</h4>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body mx-3">
-                            <div class="md-form mb-5">
-                                <i class="fas fa-user prefix grey-text"></i>
-                                <input type="text" id="form34" class="form-control validate">
-                                <label data-error="wrong" data-success="right" for="form34">Votre Nom</label>
-                            </div>
-
-                            <div class="md-form mb-5">
-                                <i class="fas fa-envelope prefix grey-text"></i>
-                                <input type="email" id="form29" class="form-control validate">
-                                <label data-error="wrong" data-success="right" for="form29">Votre Email</label>
-                            </div>
-
-                            <div class="md-form mb-5">
-                                <i class="fas fa-tag prefix grey-text"></i>
-                                <input type="text" id="form32" class="form-control validate">
-                                <label data-error="wrong" data-success="right" for="form32">Sujet</label>
-                            </div>
-
-                            <div class="md-form">
-                                <i class="fas fa-pencil prefix grey-text"></i>
-                                <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
-                                <label data-error="wrong" data-success="right" for="form8">Votre message</label>
-                            </div>
-
-                        </div>
-                        <div class="modal-footer d-flex justify-content-center">
-                            <button class="btn btn-unique">Envoyer
-                                <i class="fas fa-paper-plane-o ml-1"></i>
-                            </button>
-                        </div>
-                    </div>
+            <div class="fleche">
+                <div class="decoFleche" style="height: 25px; width:25px">
+                    <i class="fas fa-question centreArrow"></i>
                 </div>
+                <p class="addInfo">EN SAVOIR PLUS</p>
             </div>
+        </div>
+    </div>
+</div>
+<!-- FIN DE LA ROW -->
 
-            <div class="text-center">
-                <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal"
-                    data-target="#modalContactForm">Contactez Nous</a>
+<!-- Debut du troisiemme Article -->
+<div class="row blockArticle">
+    <div class="col-lg-6 col-md-12 col-sm-12 article">
+        <div class="blockInArticle">
+            <div class="decoArt2">
+                <span class="myDot1b">&nbsp</span>
+                <p class="num1">4</p>
+                <span class="myDot2">&nbsp</span>
             </div>
-    </footer>
-    <!--Script Jquery------>
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+            <div class="titreArticle2">
+                <span class="articleDisign">Design des articles</span>
+                <p class="txtArt">
+                    <span class="tMaj">G</span>râce à une étroite collaboration avec nos
+                    photographes et mannequins, nous pouvons capturer chaque produit dans ses
+                    moindres détails afin que vous en ayez un aperçu authentique avant de passer à
+                    l'achat.
+                </p>
+            </div>
+            <div class="fleche2">
+                <div class="decoFleche" style="height: 25px; width:25px">
+                    <i class="fas fa-question centreArrow"></i>
+                </div>
+                <p class="addInfo2">EN SAVOIR PLUS</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12 img-q6"></div>
+</div>
+<!-- FIN DE LA ROW -->
 
-    <!--function barre de recherche-->
-    <script>
+<!-- Debut du quatriemme Article -->
+<div class="row blockArticle">
+    <div class="col-lg-6 col-md-12 col-sm-12 img-q7"></div>
+    <div class="col-lg-6 col-md-12 col-sm-12 article">
+        <div class="blockInArticle">
+            <div class="decoArt">
+                <span class="myDot1">&nbsp</span>
+                <p class="num1">5</p>
+                <span class="myDot2">&nbsp</span>
+            </div>
+            <div class="titreArticle">
+                <span class="articleDisign">Design des articles</span>
+                <p class="txtArt">
+                    <span class="tMaj">A</span>près la création, la production et le conditionnement
+                    de nos articles, ces derniers sont chargés dans un avion et entament leur voyage
+                    pour traverser le monde et atterrir chez vous.
+                </p>
+            </div>
+            <div class="fleche">
+                <div class="decoFleche" style="height: 25px; width:25px">
+                    <i class="fas fa-question centreArrow"></i>
+                </div>
+                <p class="addInfo">EN SAVOIR PLUS</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FIN DE LA ROW -->
 
-        document
-            .getElementById('recherche')
-            .addEventListener("focus", monFocus);
-        document
-            .getElementById('recherche')
-            .addEventListener("blur", monBlur);
+<!-- Debut du cinqieme Article -->
+<div class="row blockArticle">
+    <div class="col-lg-6 col-md-12 col-sm-12 article">
+        <div class="blockInArticle">
+            <div class="decoArt2">
+                <span class="myDot1b">&nbsp</span>
+                <p class="num1">6</p>
+                <span class="myDot2">&nbsp</span>
+            </div>
+            <div class="titreArticle2">
+                <span class="articleDisign">Design des articles</span>
+                <p class="txtArt">
+                    <span class="tMaj">V</span>ous avez certainement des questions à nous poser. Ne
+                    vous en faites pas, on s'occupe de tout. Nos agents vous proposent un service
+                    professionnel dans les langues suivantes: l'anglais, le français, l'allemand, le
+                    russe et l'arabe.
+                </p>
+            </div>
+            <div class="fleche2">
+                <div class="decoFleche" style="height: 25px; width:25px">
+                    <i class="fas fa-question centreArrow"></i>
+                </div>
+                <p class="addInfo2">EN SAVOIR PLUS</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12 img-q8"></div>
+</div>
+<div class="container-fluid">
+    <ul class="partenaires row">
 
-        function monFocus() {
-            this.style.cssText = "background-color:white";
-            document
-                .getElementById('recherche')
-                .style
-                .cssText = "background-color:pink";
-        }
+        <!-- Partners Payment -->
+        <li class="col">
+            <a class="cb" href="linkSite"></a>
+            <img src="img/logo cb.PNG" alt="carte bleu"></a>
+    </li>
 
-        function monBlur() {
-            this.style.cssText = "background-color:white";
-        }
-    </script>
+    <li class="col">
+        <a class="paylib" href="linkSite"></a>
+        <img src="img/paylib logo.png" alt="paylib"></a>
+</li>
+<li class="col">
+    <a class="paypal" href="linkSite">
+        <img src="img/Logo-PayPal.png" alt="paypal"></a>
+</li>
 
-    <script src="vitrine.js"></script>
+<li class="col">
+    <a class="mastercard" href="linkSite">
+        <img src="img/MasterCard_Logo.svg.png" alt=""></a>
+</li>
+<li class="col">
+    <a class="maestro" href="linkSite">
+        <img src="img/2000px-Maestro_1992_logo.svg.png" alt="maestro"></a>
+</li>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+<li class="col">
+    <a class="cheque" href="linkSite">
+        <img src="img/cheque-cadeau logo.png" alt="cheque"></a>
+</li>
+<li class="col">
+    <a class="illicado" href="linkSite"></a>
+    <img src="img/logo-illicado.jpg" alt="illicado"></a>
+</li>
+<!-- Partners Delivery -->
+<li class="col">
+<a class="chronopost" href="linkSite">
+    <img src="img/logo-chronopost-web.jpg" alt="chronopost"></a>
+</li>
+</ul>
+</div>
+</div>
+
+<footer>
+
+<form action="/action_page.php">
+<div class="container">
+<h2>Souscription Newsletter</h2>
+<p>Abonnées vous à notre Newsletter pour toute promotions de derniere minutes</p>
+</div>
+
+<div class="container">
+<input
+id="name-new"
+type="text"
+placeholder="Nom, prénom"
+name="NOM"
+required="required">
+<input
+id="email-news"
+type="email"
+placeholder="Adresse mail"
+name="mail"
+required="required">
+<label>
+<input type="checkbox" checked="checked" name="Validez">
+Newsletter
+</label>
+</div>
+
+<div class="container">
+<input type="submit" value="Subscribe"></div>
+<div class="footer-copyright text-center py-3">© 2019 Copyright IFOCOP-DIW52
+</div>
+
+<div
+class="modal fade"
+id="modalContactForm"
+tabindex="-1"
+role="dialog"
+aria-labelledby="myModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+    <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Ecrivez Nous</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body mx-3" id="modalNom">
+        <div class="md-form mb-5">
+            <i class="fas fa-user prefix grey-text"></i>
+            <input type="text" id="form34" class="form-control validate">
+            <label data-error="wrong" data-success="right" for="form34">Votre Nom</label>
+        </div>
+
+        <div class="md-form mb-5" id="modalEmail">
+            <i class="fas fa-envelope prefix grey-text"></i>
+            <input type="email" id="form29" class="form-control validate">
+            <label data-error="wrong" data-success="right" for="form29">Votre Email</label>
+        </div>
+
+        <div class="md-form mb-5" id="modalSujet">
+            <i class="fas fa-tag prefix grey-text"></i>
+            <input type="text" id="form32" class="form-control validate">
+            <label data-error="wrong" data-success="right" for="form32">Sujet</label>
+        </div>
+
+        <div class="md-form" id="modalMessage">
+            <i class="fas fa-pencil prefix grey-text"></i>
+            <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+            <label data-error="wrong" data-success="right" for="form8">Votre message</label>
+        </div>
+
+    </div>
+    <div class="modal-footer d-flex justify-content-center" id="modalEnvoyer">
+        <button class="btn btn-unique">Envoyer
+            <i class="fas fa-paper-plane-o ml-1"></i>
+        </button>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="text-center">
+<a
+href=""
+class="btn btn-default btn-rounded mb-4" id="modalContact"
+data-toggle="modal"
+data-target="#modalContactForm">Contactez Nous</a>
+</div>
+</footer>
+<!--Script Jquery------>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!--function barre de recherche-->
+<script>
+
+document
+.getElementById('recherche')
+.addEventListener("focus", monFocus);
+document
+.getElementById('recherche')
+.addEventListener("blur", monBlur);
+
+function monFocus() {
+this.style.cssText = "background-color:white";
+document
+.getElementById('recherche')
+.style
+.cssText = "background-color:pink";
+}
+
+function monBlur() {
+this.style.cssText = "background-color:white";
+}
+</script>
+
+<script src="vitrine.js"></script>
+
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous"></script>
+<script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -246,31 +246,52 @@
 .blockArticle {
     margin-bottom: 25px;
 }
+#form34{
+border-radius: 15px;
+}
 #form34:hover {
     background-color: pink;
-    color: white;
-    cursor: pointer;
+    color: black;
+    cursor: pointer;    
+}
+#form29{
+border-radius: 15px;
 }
 #form29:hover {
     background-color: pink;
-    color: white;
+    color: black;
     cursor: pointer;
+    text-decoration: black;
 }
+#form32{
+    border-radius: 15px;
+    }
 #form32:hover {
     background-color: pink;
-    color: white;
+    color: black;
     cursor: pointer;
 }
+#form8{
+    border-radius: 15px;
+    }
 #form8:hover {
     background-color: pink;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 .enjoy:hover {
     background-color: pink;
-    color: white;
+    color: black;
     cursor: pointer;
 }
-#modalContactForm {
-    background-image: url("http://lorempixel.com/400/200/");
+/* modal formulaire de contact */
+
+.modal-content{    
+    background-image: url("http://lorempixel.com/1200/1080/")!important;
+    background-color: rgb(255, 223, 228);
 }
+#modalContactForm{
+    background-image: url("http://lorempixel.com/800/600/")!important;
+}
+
+/*******************************************/
