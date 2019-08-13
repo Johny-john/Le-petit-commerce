@@ -36,9 +36,7 @@ canvas {
 
 #titre {
     text-align: center;
-    font-family: 'Jacques Francois Shadow', cursive;
-    margin-top: 15px;
-    padding: 10px;
+    font-family: 'Monoton', cursive;
     font-size: 3em;
     color: deeppink;
 }
