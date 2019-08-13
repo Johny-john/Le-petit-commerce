@@ -42,7 +42,7 @@
     margin-left: 12px;
 }
 #qsm p {
-    text-align: justify;
+    text-align: center;
 }
 
 .blocmap {
@@ -52,7 +52,7 @@
 }
 .img-q2 {
     background-image: url("img/map.webp");
-    height: 692px;
+    height: 500px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
