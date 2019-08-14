@@ -36,9 +36,7 @@ canvas {
 
 #titre {
     text-align: center;
-    font-family: 'Jacques Francois Shadow', cursive;
-    margin-top: 15px;
-    padding: 10px;
+    font-family: 'Monoton', cursive;
     font-size: 3em;
     color: deeppink;
 }
@@ -185,6 +183,13 @@ input[type=submit]:hover {
 
 .calendar:hover, .comment:hover, .e-commerce:hover{
 transform: scale(1.5);
+}
+
+/* <!-- Partners Payment --> */
+
+.blanc{
+    background-color: white;
+    width: 50%;
 }
 
 /*Footer map*/
@@ -386,3 +391,4 @@ transform: scale(1.5);
     border-radius: 5px;
     min-height: 270px;
 }
+
