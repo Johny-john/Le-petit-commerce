@@ -246,6 +246,7 @@
 .blockArticle {
     margin-bottom: 25px;
 }
+/*formulaire de contact*/
 #form34{
 border-radius: 15px;
 }
@@ -260,8 +261,7 @@ border-radius: 15px;
 #form29:hover {
     background-color: pink;
     color: black;
-    cursor: pointer;
-    text-decoration: black;
+    cursor: pointer;   
 }
 #form32{
     border-radius: 15px;
@@ -287,10 +287,21 @@ border-radius: 15px;
 /* modal formulaire de contact */
 
 .modal-content{    
-    background-image: url("img/suscrib.jpg")!important;
+    background-color:#c08fac!important;
+    opacity: 0.9;
 }
 #modalContactForm{
-    background-image: url("img/indexphoto.png")!important;
+    background-image: url("img/entreprise.jpg")!important;
 }
+
+#contactezNousEtpostulez{
+    display: flex;
+}
+/*formulaire de recrutement*/
+
+#darkModalForm{
+    background-image: url("img/entreprise.jpg")!important;
+}
+
 
 /*******************************************/
