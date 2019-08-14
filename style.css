@@ -285,44 +285,8 @@ margin: 10px 50px 0 10px;
     overflow: hidden;
     border: 1px solid;
 }
-#defilement{
-    position: absolute;
-    left: 100px;
-    transition: 2s;
-    
-}
-.zone1-active{position: absolute;}
-
-.zone2-active{position: absolute; left:500px; top: 0px;}
-
-.zone3-active{position: absolute; left:1000px; top: 0px;}
-
-.zone4-active{position: absolute; left:1500px; top: 0px;}
-
-.zone5-active{position: absolute; left:2000px; top: 0px;}
-
-#zone1:target #defilement{left: 0px;}
-
-#zone2:target #defilement{left: -500px;}
-
-#zone3:target #defilement{left: -1000px;}
-
-#zone4:target #defilement{left: -1500px;}
-
-#zone5:target #defilement{left: -2000px;}
-
-#espace1{
-    height: 300px;
-
-}
-#espace2{
-    width: 600px;
-    height: 500px;
-}
 
 /*Sarah css*/
-
-
 
 /**** CONTAINER1 ****/
 
