@@ -392,3 +392,6 @@ transform: scale(1.5);
     min-height: 270px;
 }
 
+ul li{
+    text-decoration: none;
+}
