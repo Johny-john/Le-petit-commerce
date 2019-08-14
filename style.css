@@ -23,6 +23,7 @@ h1{
     background-color:rgb(224, 220, 220);
     border: 2px solid rgb(224, 67, 146);
 }
+/* image banniere */
 .img-banniere{
     background-image: url(img/imgf1.jpg);
     background-size: cover;
@@ -43,6 +44,22 @@ h1{
     background-size: cover;
     background-position-y: 36%;
 }
+.img-banniere5{
+    background-image: url(img/accessoire-ceunture.jpg);
+    background-size: cover;
+    background-position-y: 0%;
+}
+.img-banniere6{
+    background-image: url(img/accessoire-maillotF.jpg);
+    background-size: cover;
+    background-position-y: 25%;
+}
+.img-banniere7{
+    background-image: url(img/accessoire-sacs.jpg);
+    background-size: cover;
+    background-position-y: 73%;
+}
+
 
 .collection-homme { 
     color: #ebecec;
@@ -268,44 +285,8 @@ margin: 10px 50px 0 10px;
     overflow: hidden;
     border: 1px solid;
 }
-#defilement{
-    position: absolute;
-    left: 100px;
-    transition: 2s;
-    
-}
-.zone1-active{position: absolute;}
-
-.zone2-active{position: absolute; left:500px; top: 0px;}
-
-.zone3-active{position: absolute; left:1000px; top: 0px;}
-
-.zone4-active{position: absolute; left:1500px; top: 0px;}
-
-.zone5-active{position: absolute; left:2000px; top: 0px;}
-
-#zone1:target #defilement{left: 0px;}
-
-#zone2:target #defilement{left: -500px;}
-
-#zone3:target #defilement{left: -1000px;}
-
-#zone4:target #defilement{left: -1500px;}
-
-#zone5:target #defilement{left: -2000px;}
-
-#espace1{
-    height: 300px;
-
-}
-#espace2{
-    width: 600px;
-    height: 500px;
-}
 
 /*Sarah css*/
-
-
 
 /**** CONTAINER1 ****/
 
