@@ -185,6 +185,13 @@ input[type=submit]:hover {
 transform: scale(1.5);
 }
 
+/* <!-- Partners Payment --> */
+
+.blanc{
+    background-color: white;
+    width: 50%;
+}
+
 /*Footer map*/
 .map-container {
     overflow: hidden;
