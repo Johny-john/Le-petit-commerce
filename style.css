@@ -112,11 +112,12 @@ background-color: rgba(233, 139, 189, 0.432); color: white;
 
 
 @media(min-width:375){
-.img-banniere{
+.img-banniere .img-banniere6{
     background-size: auto;
     background-position-x: center;
 }
 }
+
 
 @media(min-width:480px){
     #titre .navbar-brand .partenaires .list-unstyled1 {
