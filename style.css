@@ -23,6 +23,7 @@ h1{
     background-color:rgb(224, 220, 220);
     border: 2px solid rgb(224, 67, 146);
 }
+/* image banniere */
 .img-banniere{
     background-image: url(img/imgf1.jpg);
     background-size: cover;
@@ -43,6 +44,22 @@ h1{
     background-size: cover;
     background-position-y: 36%;
 }
+.img-banniere5{
+    background-image: url(img/accessoire-ceunture.jpg);
+    background-size: cover;
+    background-position-y: 0%;
+}
+.img-banniere6{
+    background-image: url(img/accessoire-maillotF.jpg);
+    background-size: cover;
+    background-position-y: 25%;
+}
+.img-banniere7{
+    background-image: url(img/accessoire-sacs.jpg);
+    background-size: cover;
+    background-position-y: 73%;
+}
+
 
 .collection-homme { 
     color: #ebecec;
