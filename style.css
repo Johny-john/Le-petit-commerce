@@ -55,9 +55,14 @@ h1{
     background-position-y: 25%;
 }
 .img-banniere7{
-    background-image: url(img/accessoire-sacs.jpg);
+    background-image: url(img/accessoire-sac1.jpg);
     background-size: cover;
-    background-position-y: 73%;
+    background-position-y: 92%;
+}
+.img-banniere8{
+    background-image: url(img/accessoire-chaussure.jpg);
+    background-size: cover;
+    background-position-y: 46%;
 }
 
 
