@@ -8,7 +8,7 @@ h1 {
 
 /*****header*******/
 .form-inline .form-control {
-    width: 50%;
+    width: 100%;
 }
 .navbar-light .navbar-nav .nav-link {
     color: rgb(247, 29, 145);
@@ -392,3 +392,11 @@ transform: scale(1.5);
     min-height: 270px;
 }
 
+ul li{
+    text-decoration: none;
+}
+
+.sugg{
+    height: 100px;
+    weight: 50px;
+}
