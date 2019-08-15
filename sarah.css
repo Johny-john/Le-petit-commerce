@@ -395,3 +395,8 @@ transform: scale(1.5);
 ul li{
     text-decoration: none;
 }
+
+.sugg{
+    height: 100px;
+    weight: 50px;
+}
