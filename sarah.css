@@ -392,6 +392,10 @@ transform: scale(1.5);
     align-items: center;
 }
 
+.pr{
+    padding: 15px;
+}
+
 .presentationprenom{
  border: solid 2px deeppink;
  padding: 4px;
@@ -457,4 +461,27 @@ ul li{
 
 .deeppink{
     color: deeppink;
+}
+
+.cont{
+    max-width: 1008px;
+    margin: auto;
+}
+
+.cont img{
+    border: 4px solid deeppink;
+}
+
+
+.descr{
+    padding: 15px;
+    color: deeppink;
+}
+
+.total {
+    display: flex;
+    margin: 15px;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 5px;
+    justify-content: center;    
 }
