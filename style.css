@@ -406,6 +406,25 @@ margin: 10px 50px 0 10px;
     border-radius: 5px;
     min-height: 270px;
 }
+/* Mentions legales */
+.titremention{
+    justify-content: center;
+    padding: 15px;
+    color: #FF1493
+}
+.mention{
+    display: flex;
+    margin-bottom: 14px;
+    margin: 0 auto;
+    background-color: rgb(230, 227, 227);
+    border: 1px solid deeppink;
+    border-radius: 5px;
+    min-height: 230px;
+    padding: 5px;
+}
+.legale{
+    margin: 10px;
+}
 
 #margeParteners{
 margin-top: 30px;
