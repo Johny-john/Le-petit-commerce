@@ -12,11 +12,11 @@ contexte.textAlign ='left';
 
 contexte.textBaseline = 'middle'; 
 
-contexte.font = " bold 30px arial" ; 
+contexte.font = "bold 80px impact" ; 
 
-contexte.strokeStyle ='#000'; 
+contexte.strokeStyle ='deeppink'; 
 
-contexte.lineWidth = 1; 
+contexte.lineWidth = 0.5; 
 
 var x = X ; y = 50; setInterval(deplacement,20) ; 
 

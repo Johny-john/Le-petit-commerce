@@ -18,7 +18,6 @@ h1{
     text-align: center
 }
 .dropdown-menu{
-   
     background: rgb(224, 220, 220);
     background-color:rgb(224, 220, 220);
     border: 2px solid rgb(224, 67, 146);
@@ -105,7 +104,7 @@ canvas {
     background-image : linear-gradient(90deg, #eee, #ccc );
 }
 #defilant {
-    width: 100%;
+    width: 200%;
     height:150px;
 }
 

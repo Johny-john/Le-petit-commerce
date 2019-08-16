@@ -42,12 +42,9 @@ canvas {
 }
 
 .infos {
-    background-color: rgba(233, 139, 189, 0.432);
+    background-color: deeppink;
     color: white;
-    padding: 15px;
     text-align: center;
-    border-bottom-width: 30px;
-
 }
 
 .card-body p {
