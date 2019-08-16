@@ -135,6 +135,14 @@
     flex-direction: row-reverse;
 }
 
+.myDot0 {
+    width: 30px;
+    height: 1px;
+    background: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
 .myDot1 {
     width: 30px;
     height: 1px;
