@@ -412,7 +412,6 @@ transform: scale(1.5);
 }
 
 .presentationprenomvous{
-    border: solid 2px rgb(230, 227, 227);
     padding: 4px;
 }
 
@@ -450,11 +449,11 @@ ul li{
 	padding: 0.0625rem;
 }
 
-.stars:hover .fa-star {
+.etvous .stars:hover .fa-star {
     color: #ffdc0f;
 }
 
-.stars .fa-star:hover ~ .fa-star {
+.etvous .stars .fa-star:hover ~ .fa-star {
     color: gray;
 }
 
