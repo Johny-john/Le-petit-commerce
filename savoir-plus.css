@@ -27,6 +27,14 @@
     font-size: 12px;
 }
 
+#paragraphe4 {
+    text-align: justify !important;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 90px;
+    margin-right: 130;
+}
+
 .borderImage {
     margin-top: 20px;
     width: 100%;
@@ -42,9 +50,16 @@
 #qi {
     width: 100%;
 }
+#qi2{
+    width: 100%;
+    margin-top: 20px;
+}
 .move1 {
     margin-top: -22px !important;
 }
 #qi1 {
     margin-left: -102 !important;
+}
+#qi2 {
+    margin-top: 30px !important;
 }
