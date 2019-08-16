@@ -24,6 +24,7 @@ h1{
     border: 2px solid rgb(224, 67, 146);
 }
 /* image banniere */
+
 .img-banniere{
     background-image: url(img/imgf1.jpg);
     background-size: cover;
@@ -65,7 +66,7 @@ h1{
     background-position-y: 46%;
 }
 .img-banniere9{
-    background-image: url(img/accessoire-pantalon-homme.jpg);
+    background-image: url(img/pantalon-banniere.jpg);
     background-size: cover;
     background-position-y: 25%;
 }
@@ -74,6 +75,23 @@ h1{
     background-size: cover;
     background-position-y: 25%;
 }
+.img-banniere11{
+    background-image: url(img/bannierre-pantalon.jpg);
+    background-size: cover;
+    background-position-y: 29%;
+}
+.img-banniere12{
+    background-image: url(img/bannierre-polo.jpg);
+    background-size: cover;
+    background-position-y: 29%;
+}
+.img-banniere13{
+    background-image: url(img/bannierre-chemise.jpg);
+    background-size: cover;
+    background-position-y: 29%;
+}
+
+
 
 
 .collection-homme { 
