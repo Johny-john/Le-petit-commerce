@@ -91,9 +91,6 @@ h1{
     background-position-y: 29%;
 }
 
-
-
-
 .collection-homme { 
     color: #ebecec;
 }
@@ -407,6 +404,7 @@ margin: 10px 50px 0 10px;
     min-height: 270px;
 }
 /* Mentions legales */
+
 .titremention{
     justify-content: center;
     padding: 15px;
@@ -415,7 +413,7 @@ margin: 10px 50px 0 10px;
 .mention{
     display: flex;
     margin-bottom: 14px;
-    margin: 0 auto;
+    margin: 15px;
     background-color: rgb(230, 227, 227);
     border: 1px solid deeppink;
     border-radius: 5px;
@@ -428,7 +426,7 @@ margin: 10px 50px 0 10px;
 .legale h5{
     text-align: center;
     color: #FF1493;
-    
+
 }
 
 #margeParteners{
