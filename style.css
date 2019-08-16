@@ -1,11 +1,22 @@
 *{
     font-family: 'Prata', serif;
 }
+#ormulaire-ages{
+    background-color: rgb(175, 173, 173);
+    color: #FF1493;
+}
 h1{
     display: flex;
     align-content: center
 }
-
+.bouton-valider{
+    color: lightgrey;  
+    background-color: #FF1493;
+    border-color: #FF1493;
+}
+.formulaire{
+    padding-top: 300px;
+}
 /*****header*******/
 .form-inline .form-control{
     width: 50%;
