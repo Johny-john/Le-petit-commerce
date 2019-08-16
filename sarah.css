@@ -400,6 +400,23 @@ transform: scale(1.5);
  padding: 4px;
 }
 
+.etvous{
+    display: flex;
+    margin: 15px;
+    background-color:deeppink ;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 5px;
+    justify-content: center;  
+    opacity:0.50;
+    color: black;
+}
+
+.presentationprenomvous{
+    border: solid 2px rgb(230, 227, 227);
+    padding: 4px;
+}
+
+
 
 ul li{
     text-decoration: none;
@@ -432,6 +449,15 @@ ul li{
 	color: gray;
 	padding: 0.0625rem;
 }
+
+.stars:hover .fa-star {
+    color: #ffdc0f;
+}
+
+.stars .fa-star:hover ~ .fa-star {
+    color: gray;
+}
+
 
 .deeppink{
     color: deeppink;
