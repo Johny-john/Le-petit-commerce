@@ -1,0 +1,50 @@
+#titre1 {
+    margin-top: 20px;
+    margin-left: -25px;
+}
+
+#titre2 {
+    text-align: center;
+}
+
+#titre3 {
+    margin-top: 60px;
+    margin-left: -25px;
+    font-size: 18px;
+}
+
+#paragraphe1 {
+    text-align: justify !important;
+    margin-top: -50px;
+}
+#paragraphe2 {
+    text-align: justify !important;
+
+}
+#paragraphe3 {
+    text-align: justify !important;
+    text-align: left;
+    font-size: 12px;
+}
+
+.borderImage {
+    margin-top: 20px;
+    width: 100%;
+    border: 3px solid pink;
+}
+
+.borderImage2 {
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+#qi {
+    width: 100%;
+}
+.move1 {
+    margin-top: -22px !important;
+}
+#qi1 {
+    margin-left: -102 !important;
+}
