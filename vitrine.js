@@ -39,7 +39,7 @@ this.style.cssText = "background-color:white";
 document
     .getElementById('recherche')
     .style
-    .cssText = "background-color:pink";
+    .cssText = "background-color:deeppink";
 }
 function monBlur() {
 this.style.cssText = "background-color:white";
