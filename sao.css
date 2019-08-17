@@ -338,11 +338,11 @@ border-radius: 15px;
     font-style: normal;
 }
 
-* {
+/* * {
     box-sizing: border-box;
     font-family: Raleway;
     color: #777;
-}
+} */
 
 body,
 html {
