@@ -162,7 +162,7 @@
 
             </div>
         </section>
-    </main>
+    
     <!--------------------menu Cartes-------------------->
     <div class="albums py-5 bg-light">
         <div class="container">
@@ -522,6 +522,8 @@
                 </div>
             </div>
         </div>
+        </div>
+        </main>
         <!------------Description montres------------->
 
         <div class="infos">
@@ -708,20 +710,13 @@
         <!--function barre de recherche-->
         <script>
 
-            document
-                .getElementById('recherche')
-                .addEventListener("focus", monFocus);
-            document
-                .getElementById('recherche')
-                .addEventListener("blur", monBlur);
-
-
-            function monFocus() {
-                this.style.cssText = "background-color:white";
+                document
+                    .getElementById('recherche')
+                    .addEventListener("focus", monFocus);
                 document
                     .getElementById('recherche')
                     .addEventListener("blur", monBlur);
-
+    
                 function monFocus() {
                     this.style.cssText = "background-color:white";
                     document
@@ -729,13 +724,12 @@
                         .style
                         .cssText = "background-color:deeppink";
                 }
-            }
-
+    
                 function monBlur() {
                     this.style.cssText = "background-color:white";
                 }
             </script>
-
+    
             <script src="vitrine.js"></script>
 
             <script
