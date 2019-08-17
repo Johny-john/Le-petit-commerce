@@ -39,8 +39,8 @@
                 </div>
 
                 <div class="textbox">
-                        <i class="fa fa-lock" aria-hidden="true"></i>
-                    <input type="number" placeholder="téléphone" name="number" value="" required="required">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="number" placeholder="téléphone" name="number" value="">
                 </div>   
 
                 <div class="textbox">
@@ -53,6 +53,9 @@
                 <label for="pays">Quel âges avez-vous s'il vous plait ?</label>
                 <select name="choix" id="formulaire-ages">
                     <optgroup label="choix2">
+                            <option value="fr" selected>11</option>
+                            <!-- selected : option selectionnée par défaut -->
+                        </optgroup> 
                         <option value="fr">12</option>
                         <option value="fr">13</option>
                         <option value="fr">14</option>
@@ -77,10 +80,21 @@
                         <option value="fr">33</option>
                         <option value="fr">34</option>
                         <option value="fr">35</option>
-
-                        <option value="es" selected>21 ans</option>
-                        <!-- selected : option selectionnée par défaut -->
-                    </optgroup> 
+                        <option value="fr">36</option>
+                        <option value="fr">37</option>
+                        <option value="fr">38</option>
+                        <option value="fr">39</option>
+                        <option value="fr">41</option>
+                        <option value="fr">42</option>
+                        <option value="fr">43</option>
+                        <option value="fr">44</option>
+                        <option value="fr">45</option>
+                        <option value="fr">46</option>
+                        <option value="fr">47</option>
+                        <option value="fr">48</option>
+                        <option value="fr">49</option>
+                        <option value="fr">50</option>
+                       
                 </select>
 
 
@@ -113,7 +127,7 @@
                  document
                      .getElementById('recherche')
                      .style
-                     .cssText = "background-color:pink";
+                     .cssText = "background-color:deeppink";
              }
  
              function monBlur() {
