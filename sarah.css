@@ -424,7 +424,7 @@ ul li{
 
 .sugg{
     height: 100px;
-    weight: 50px;
+    width: 50px;
 }
 
 .bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{
