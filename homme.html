@@ -559,70 +559,161 @@
                 </div>
             </div>
 
-            <div class="row">
+                <!--footer-->
+      
+                <footer>
+                        <div class="container-fluid col-sm-6 col-md-6 col-lg-6">
+      <ul class="partenaires row">
+          <!-- Partners Payment -->
+          <li class="col ">
+              <a class="cb" href="linkSite"></a>
+              <img src="img/logo cb.PNG" alt="carte bleu"></a>
+          </li>
+    
+          <li class="col">
+              <a class="paylib" href="linkSite"></a>
+              <img src="img/paylib logo.png" alt="paylib"></a>
+          </li>
+          <li class="col">
+              <a class="paypal" href="linkSite">
+                  <img src="img/Logo-PayPal.png" alt="paypal"></a>
+              </li>
+    
+              <li class="col">
+                  <a class="mastercard" href="linkSite">
+                      <img src="img/MasterCard_Logo.svg.png" alt=""></a>
+                  </li>
+                  <li class="col">
+                      <a class="maestro" href="linkSite">
+                          <img src="img/2000px-Maestro_1992_logo.svg.png" alt="maestro"></a>
+                      </li>
+    
+                      <li class="col">
+                          <a class="cheque" href="linkSite">
+                              <img src="img/cheque-cadeau logo.png" alt="cheque"></a>
+                          </li>
+                          <li class="col">
+                              <a class="illicado" href="linkSite"></a>
+                              <img src="img/logo-illicado.jpg" alt="illicado"></a>
+                          </li>
+                          <!-- Partners Delivery -->
+                          <li class="col">
+                              <a class="chronopost" href="linkSite">
+                                  <img src="img/logo-chronopost-web.jpg" alt="chronopost"></a>
+                              </li>
+                          </ul>
+                      </div>
+                      <!--newsletter-->
+    <!--newsletter-->
 
-                <div class="col-md-6 mt-md-0 mt-3">
+<form action="/action_page.php">
+    <div class="container">
+        <h3>Newsletter</h3>
+        <p>Abonnez vous à notre Newsletter pour toute promotion de derniere minute.</p>
+    </div>
+    </form>
+    
+    <div class="container">
+    <input
+        id="name-new"
+        type="text"
+        placeholder="Nom, prénom"
+        name="name"
+        required="required">
+    <input
+        id="email-news"
+        type="email"
+        placeholder="Adresse mail"
+        name="mail"
+        required="required">
+    <label>
+        <input type="checkbox" checked="checked" name="Validez">
+       Veuillez accepter nos <a href="condition-generale-de-vente.html">conditions générales de vente</a> Cliquez ici.
+    </label>
+    </div>
+    
+    <div class="container">
+    <input type="submit" value="Valider"></div>
+    <!-- Footer -->
+    
+    <footer class="page-footer font-small pt-4">
+    
+    <div class="container-fluid text-center text-md-left">
+    
+        <div class="row">
+    
+            <div class="col-md-6 mt-md-0 mt-3">
+    
+                <h5 class="text-uppercase">Qui sommes nous?</h5><br>
+                <p>Crée durant l'été 2019, cette boutique d'e-commerce est un site à but non lucratif,
+                    Le but ici étant de démontrer nos talents, mais surtout de partager un plaisir de développer nos compétences.
+                 Site réalisé par : <br> 
+                    <p style="color: deeppink">Jonathan, Sarah & Saüla.</p> Contacter IFOCOP PARIS XI, pour plus d'informations.</p>
+    
+            </div>
+    
+            <hr class="clearfix w-100 d-md-none pb-3">
+    
+            <div class="col-md-3 mb-md-0 mb-3">
+    
+                <h5 class="text-uppercase">Services</h5>
+    
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="index1.html">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#!">Plan du site</a>
+                    </li>
+                    <li>
+                        <a href="mention-legale.html">Mentions légales</a>
+                    </li>
+                    <li>
+                        <a href="condition-generale-de-vente.html">Conditions générales de vente</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="col-md-3 mb-md-0 mb-3">
+    
+                <h5 class="text-uppercase">Contacts</h5>
+    
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="boutique.html">Qui sommes nous ?</a>
+                    </li>
+                    <li>
+                        <a href="#!">Newsletter</a>
+                    </li>
+                    <li>
+                        <a href="#!">Email</a>
+                    </li>
+                    <li>
+                        <a href="#!">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#!">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <!--Script Jquery------>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        
 
-                    <h5 class="text-uppercase">Qui sommes nous?</h5><br>
-                    <p>Créée durant l'été 2019, cette boutique d'e-commerce s'adresse à tous les
-                        passionnés du shopping. Contactez-nous pour plus d'informations.</p>
+        <!--function barre de recherche-->
+        <script>
 
-                </div>
+            document
+                .getElementById('recherche')
+                .addEventListener("focus", monFocus);
+            document
+                .getElementById('recherche')
+                .addEventListener("blur", monBlur);
 
-                <hr class="clearfix w-100 d-md-none pb-3">
 
-                <div class="col-md-3 mb-md-0 mb-3">
-
-                    <h5 class="text-uppercase">Services</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">Contacts</a>
-                        </li>
-                        <li>
-                            <a href="#!">Plan du site</a>
-                        </li>
-                        <li>
-                            <a href="mention-legale.html">Mentions légales</a>
-                        </li>
-                        <li>
-                            <a href="condition-generale-de-vente.html">Conditions générales de vente</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-md-3 mb-md-0 mb-3">
-
-                    <h5 class="text-uppercase">Contacts</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="boutique.html">Qui sommes nous ?</a>
-                        </li>
-                        <li>
-                            <a href="#!">Newsletter</a>
-                        </li>
-                        <li>
-                            <a href="#!">Email</a>
-                        </li>
-                        <li>
-                            <a href="#!">Facebook</a>
-                        </li>
-                        <li>
-                            <a href="#!">Twitter</a>
-                        </li>
-                    </ul>
-                </div>
-            </footer>
-            <!--Script Jquery------>
-            <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-
-            <!--function barre de recherche-->
-            <script>
-
-                document
-                    .getElementById('recherche')
-                    .addEventListener("focus", monFocus);
+            function monFocus() {
+                this.style.cssText = "background-color:white";
                 document
                     .getElementById('recherche')
                     .addEventListener("blur", monBlur);
