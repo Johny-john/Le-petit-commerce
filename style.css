@@ -280,7 +280,7 @@ input[type=text], input[type=submit] {
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid deeppink;
     box-sizing: border-box;
   }
   

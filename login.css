@@ -26,9 +26,11 @@ body {
     padding: 13px 0;
 }
 .textbox {
+    background-color: black;
+    opacity: 0.8;
     width: 100%;
     overflow: hidden;
-    font-size: 20px;
+    font-size: 32px;
     padding: 8px 0;
     margin: 8px 0;
     border-bottom: 1px solid deeppink;
@@ -44,9 +46,9 @@ body {
     border: none;
     outline: none;
     background: none;
-    color: white;
+    background-color: white;
+    color: deeppink;
     font-size: 18px;
-    width: 100px;
     margin: 0 10px;
 }
 .btn {
