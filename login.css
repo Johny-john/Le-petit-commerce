@@ -7,16 +7,15 @@ body {
     background-image: url("img/bgLogin.jpg");
     /*background-repeat: no-repeat;*/
     background-size: cover;
-    max-width: 100%;
-    height: auto;
+  
 }
 .login-box {
-    width: 200px;
-    position: absolute;
+    width: 30%;
+    position: relative;
     top: 30%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: white;
+    left: 44%;
+    transform: translate(-20%,-22%);
+    color: deeppink;
 
 }
 .login-box h1 {

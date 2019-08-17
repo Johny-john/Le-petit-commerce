@@ -17,17 +17,17 @@
 
         <title>Contact</title>
     </head>
-    <body>
+    <body class="index1">
         <div id="#">
             <div class="login-box formulaire">
                <div id="titre"> <h1>Le Petit Commerce</h1></div>
 
-                <div class="textbox">
+                <div class="textbox" id="recherche">
                     <i class="fa fa-user" aria-hidden="true"></i>
                     <input type="text" placeholder="Prénom." name="Prenom" value="" required="required">
                 </div>
 
-                <div class="textbox">
+                <div class="textbox" id="recherhce">
                         <i class="fa fa-user" aria-hidden="true"></i>
                         <input type="text" placeholder="Nom." name="Prenom" value="" required="required">
                     </div>
@@ -95,6 +95,40 @@
                     
             </div>
         </div>
+         <!--Script Jquery------>
+         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+         <!--function barre de recherche-->
+         <script>
+ 
+             document
+                 .getElementById('recherche')
+                 .addEventListener("focus", monFocus);
+             document
+                 .getElementById('recherche')
+                 .addEventListener("blur", monBlur);
+ 
+             function monFocus() {
+                 this.style.cssText = "background-color:white";
+                 document
+                     .getElementById('recherche')
+                     .style
+                     .cssText = "background-color:pink";
+             }
+ 
+             function monBlur() {
+                 this.style.cssText = "background-color:white";
+             }
+         </script>
+ 
+         <script src="vitrine.js"></script>
+ 
+         <script
+             src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+             integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+             crossorigin="anonymous"></script>
+         <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    
 
 
     
