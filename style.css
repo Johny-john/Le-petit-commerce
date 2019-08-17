@@ -146,23 +146,11 @@ height: 20%;
     flex-direction: right;
 }
 
-@media(min-width:10px){
-    .img-banniere .img-banniere6 .img-banniere9 {
-        background-size: auto;
-        background-position-x: center;
-    }
-    #pres {
-        font-size: 0.6em;
-    }
-    }
 
-@media(min-width:375px){
+@media(min-width:375){
 .img-banniere .img-banniere6 .img-banniere9 {
     background-size: auto;
     background-position-x: center;
-}
-#pres {
-    font-size: 0.8em;
 }
 }
 
@@ -172,9 +160,7 @@ height: 20%;
         margin: 0 auto;
         font-size: 1.8em; 
     }
-    #pres {
-        font-size: 0.8em;
-    }
+
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -183,9 +169,7 @@ height: 20%;
         margin: 0 auto;
         font-size: 2em; 
     }
-    #pres {
-        font-size: 1.2em;
-    }
+
 }
 
  /* Medium devices (tablets, 768px and up) */
@@ -197,6 +181,7 @@ height: 20%;
     #pres {
         font-size: 1.5em;
     }
+
 }
 
  /* Large devices (desktops, 992px and up) */
@@ -214,6 +199,7 @@ height: 20%;
         margin: 0 auto;
         font-size: 3.5em; 
     }
+
 }
 
 
