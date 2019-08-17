@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="bootstrap.js">
         <!--lien vers style.css----->
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="sarah.css">
         <!--lien vers polices ecritures.css----->
         <link
             href="https://fonts.googleapis.com/css?family=Monoton&display=swap"
@@ -64,7 +65,6 @@
                                 <a class="dropdown-item" href="sac-femme.html">Sacs</a>
                                 <a class="dropdown-item" href="chaussure-femme.html">Chaussures</a>
                                 <a class="dropdown-item" href="maillot-femme.html">Maillot bain</a>
-                               
                             </div>
                         </div>
                     </li>
@@ -89,7 +89,7 @@
                         </div>
                     </li>
     
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a
                             class="nav-link dropdown-toggle"
                             href="acessoire.html"
@@ -109,7 +109,7 @@
                             </div>
                         </div>
                     </li>
-    
+     -->
                     <!--bouton recherche------->
                         <form class="form-inline my-2 my-lg-2">
                             <input
@@ -125,8 +125,8 @@
                                 style="background-color: deeppink; color: white;">Go !
                             </button> -->
                         </form>
-                    <!--Bouton panier-->
-                    <a href="#" class="btn">
+                <!--Bouton panier-->
+                <a href="panier.html" class="btn">
                         <img src="img/panier.png" alt="panier"></a>
                     <!-- Langues -->
                     <li class="nav-item dropdown">
@@ -203,7 +203,7 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-text">
-                                    <h4>Pantalon militaire rouge !</h4><hr>
+                                    <h4>Pantalon militaire rouge </h4><hr>
                                     <p>Pantalon militaire gris & rouge.  Pour une allure chic et stylée, on
                                         fait le choix de ce pantalon de costume très ajusté à effet diamanté.</p>
                                     <h5><br>Prix: 35,90€
@@ -217,7 +217,7 @@
                                         </button>
                                     </div>
                                     <small class="text-muted">
-                                        En stocks !</small>
+                                        En stock</small>
                                 </div>
                             </div>
                         </div>
@@ -282,7 +282,7 @@
                                         </button>
                                     </div>
                                     <small class="text-muted">
-                                        En stocks !</small>
+                                        En stock</small>
                                 </div>
                             </div>
                         </div>
@@ -340,7 +340,7 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-text">
-                                    <h4>Pantalon salopette !</h4><hr>
+                                    <h4>Pantalon salopette </h4><hr>
                                     <p>Pour une allure chic et stylée, on fait le choix de ce pantalon de
                                         costume très ajusté à effet diamanté. Pour etre toujours à la mode quel que soit
                                         la saison. Serie limitée
@@ -356,7 +356,7 @@
                                         </button>
                                     </div>
                                     <small class="text-muted">
-                                        En stocks !</small>
+                                        En stock</small>
                                 </div>
                             </div>
                         </div>
@@ -491,7 +491,7 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">
-                                        <h4>Pantalon militaire gris !</h4><hr>
+                                        <h4>Pantalon militaire gris </h4><hr>
                                         <p>Pantalon militaire gris et blanc en coton 100% Pour une allure chic et
                                             stylée, on fait le choix de ce pantalon très ajusté à effet camouflage. De
                                             nombreuse poches et avec une ceinture !
@@ -507,7 +507,7 @@
                                                     </button>
                                                 </div>
                                                 <small class="text-muted">
-                                                    En stocks</small>
+                                                    En stock</small>
                                             </div>
                                         </div>
                                     </div>
@@ -535,7 +535,7 @@
                                 d'intégrer le pantalon au vestiaire féminin
                             </div>
                             <div class="col-sm-6 col-md-6 col-lg-4"><img src="img/img.ptlfem1.jpg" class="d-block w-100 rounded-circle"></div>
-                            <div class="col-sm-6 col-md-6 col-lg-4">Caractéristiques et propriétés :<br>
+                            <div class="col-sm-12 col-md-12 col-lg-4">Caractéristiques et propriétés :<br>
                                 Les femmes ne portaient autrefois pas de pantalon. On trouve cependant dans
                                 l'histoire ancienne ou médiévale des exemples de femmes habillées en guerrier
                                 tel que Jeanne d'Arc, en cavalier tel que Christine de Suède... Le décret du 29
@@ -554,7 +554,7 @@
                                     leur uniforme se résumait à un pantalon, à taille unique, bien souvent trop
                                     large
                                 </div>
-                                <div class="col-sm-10 col-md-8 col-lg-4"><img src="img/img.ptlfem3.jpg" class="d-block w-100 rounded-circle"></div>
+                                <div class="col-sm-6 col-m6 col-lg-4"><img src="img/img.ptlfem3.jpg" class="d-block w-100 rounded-circle"></div>
                             </div>
                         </div>
                     </div>
@@ -603,95 +603,99 @@
                     </li>
                 </ul>
             </div>
-            <form action="/action_page.php">
-                <div class="container">
-                    <h3>Newsletter</h3>
-                    <p>Abonnées vous à notre Newsletter pour toute promotions de derniere minutes</p>
-                </div>
-            </form>
+            <!--newsletter-->
 
-            <div class="container">
-                <input
-                    id="name-new"
-                    type="text"
-                    placeholder="Nom, prénom"
-                    name="name"
-                    required="required">
-                <input
-                    id="email-news"
-                    type="email"
-                    placeholder="Adresse mail"
-                    name="mail"
-                    required="required">
-                <label>
-                    <input type="checkbox" checked="checked" name="Validez">
-                    Newsletter
-                </label>
+<form action="/action_page.php">
+    <div class="container">
+        <h3>Newsletter</h3>
+        <p>Abonnez vous à notre Newsletter pour toute promotion de derniere minute.</p>
+    </div>
+    </form>
+    
+    <div class="container">
+    <input
+        id="name-new"
+        type="text"
+        placeholder="Nom, prénom"
+        name="name"
+        required="required">
+    <input
+        id="email-news"
+        type="email"
+        placeholder="Adresse mail"
+        name="mail"
+        required="required">
+    <label>
+        <input type="checkbox" checked="checked" name="Validez">
+       Veuillez accepter nos <a href="condition-generale-de-vente.html">conditions générales de vente</a> Cliquez ici.
+    </label>
+    </div>
+    
+    <div class="container">
+    <input type="submit" value="Valider"></div>
+    <!-- Footer -->
+    
+    <footer class="page-footer font-small pt-4">
+    
+    <div class="container-fluid text-center text-md-left">
+    
+        <div class="row">
+    
+            <div class="col-md-6 mt-md-0 mt-3">
+    
+                <h5 class="text-uppercase">Qui sommes nous?</h5><br>
+                <p>Crée durant l'été 2019, cette boutique d'e-commerce est un site à but non lucratif,
+                    Le but ici étant de démontrer nos talents, mais surtout de partager un plaisir de développer nos compétences.
+                 Site réalisé par : <br> 
+                    <p style="color: deeppink">Jonathan, Sarah & Saüla.</p> Contacter IFOCOP PARIS XI, pour plus d'informations.</p>
+    
             </div>
-
-            <div class="container">
-                <input type="submit" value="Subscribe"></div>
-            <!-- Footer -->
-
-            <footer class="page-footer font-small pt-4">
-
-                <div class="container-fluid text-center text-md-left">
-
-                    <div class="row">
-
-                        <div class="col-md-6 mt-md-0 mt-3">
-
-                            <h5 class="text-uppercase">Qui sommes nous?</h5><br>
-                            <p>Créée durant l'été 2019, cette boutique d'e-commerce s'adresse à tous les
-                                passionnés du shopping. Contactez-nous pour plus d'informations.</p>
-
-                        </div>
-
-                        <hr class="clearfix w-100 d-md-none pb-3">
-
-                        <div class="col-md-3 mb-md-0 mb-3">
-
-                            <h5 class="text-uppercase">Services</h5>
-
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="#!">Contacts</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Plan du site</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Mentions légales</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Conditions générales de vente</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="col-md-3 mb-md-0 mb-3">
-
-                            <h5 class="text-uppercase">Contacts</h5>
-
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="boutique.html">Qui sommes nous ?</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Newsletter</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Email</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Facebook</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Twitter</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </footer>
+    
+            <hr class="clearfix w-100 d-md-none pb-3">
+    
+            <div class="col-md-3 mb-md-0 mb-3">
+    
+                <h5 class="text-uppercase">Services</h5>
+    
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="index1.html">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#!">Plan du site</a>
+                    </li>
+                    <li>
+                        <a href="mention-legale.html">Mentions légales</a>
+                    </li>
+                    <li>
+                        <a href="condition-generale-de-vente.html">Conditions générales de vente</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="col-md-3 mb-md-0 mb-3">
+    
+                <h5 class="text-uppercase">Contacts</h5>
+    
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="boutique.html">Qui sommes nous ?</a>
+                    </li>
+                    <li>
+                        <a href="#!">Newsletter</a>
+                    </li>
+                    <li>
+                        <a href="#!">Email</a>
+                    </li>
+                    <li>
+                        <a href="#!">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#!">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
 
                     <div class="footer-copyright text-center py-3">© 2019 Copyright IFOCOP-DIW52
                     </div>
@@ -714,7 +718,7 @@
                             document
                                 .getElementById('recherche')
                                 .style
-                                .cssText = "background-color:pink";
+                                .cssText = "background-color:deeppink";
                         }
 
                         function monBlur() {

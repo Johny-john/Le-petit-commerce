@@ -1,11 +1,22 @@
 *{
     font-family: 'Prata', serif;
 }
+#ormulaire-ages{
+    background-color: rgb(175, 173, 173);
+    color: #FF1493;
+}
 h1{
     display: flex;
     align-content: center
 }
-
+.bouton-valider{
+    color: lightgrey;  
+    background-color: #FF1493;
+    border-color: #FF1493;
+}
+.formulaire{
+    padding-top: 300px;
+}
 /*****header*******/
 .form-inline .form-control{
     width: 50%;
@@ -18,12 +29,12 @@ h1{
     text-align: center
 }
 .dropdown-menu{
-   
     background: rgb(224, 220, 220);
     background-color:rgb(224, 220, 220);
     border: 2px solid rgb(224, 67, 146);
 }
 /* image banniere */
+
 .img-banniere{
     background-image: url(img/imgf1.jpg);
     background-size: cover;
@@ -65,7 +76,7 @@ h1{
     background-position-y: 46%;
 }
 .img-banniere9{
-    background-image: url(img/accessoire-pantalon-homme.jpg);
+    background-image: url(img/pantalon-banniere.jpg);
     background-size: cover;
     background-position-y: 25%;
 }
@@ -74,8 +85,26 @@ h1{
     background-size: cover;
     background-position-y: 25%;
 }
-
-
+.img-banniere11{
+    background-image: url(img/bannierre-pantalon.jpg);
+    background-size: cover;
+    background-position-y: 29%;
+}
+.img-banniere12{
+    background-image: url(img/bannierre-polo.jpg);
+    background-size: cover;
+    background-position-y: 29%;
+}
+.img-banniere13{
+    background-image: url(img/bannierre-chemise.jpg);
+    background-size: cover;
+    background-position-y: 29%;
+}
+.img-banniere14{
+    background-image: url(img/imgf3.jpg);
+    background-size: cover;
+    background-position-y: 37%;
+}
 .collection-homme { 
     color: #ebecec;
 }
@@ -90,7 +119,7 @@ canvas {
     background-image : linear-gradient(90deg, #eee, #ccc );
 }
 #defilant {
-    width: 100%;
+    width: 200%;
     height:150px;
 }
 
@@ -103,9 +132,10 @@ canvas {
 
 .infos{
 background-color: rgba(233, 139, 189, 0.432); color: white;
- padding:15px;
+width: 100%;
+height: 20%;
  text-align: center;
- border-bottom-width: 30px;
+
 
 }
 
@@ -120,21 +150,35 @@ background-color: rgba(233, 139, 189, 0.432); color: white;
     flex-direction: right;
 }
 
+@media(min-width:10px){
+    .img-banniere .img-banniere6 .img-banniere9 {
+        background-size: auto;
+        background-position-x: center;
+    }
+    #pres {
+        font-size: 0.6em;
+    }
+    }
 
-@media(min-width:375){
-.img-banniere .img-banniere6 .img-banniere9{
+@media(min-width:375px){
+.img-banniere .img-banniere6 .img-banniere9 {
     background-size: auto;
     background-position-x: center;
+}
+#pres {
+    font-size: 0.8em;
 }
 }
 
 
 @media(min-width:480px){
-    #titre .navbar-brand .partenaires .list-unstyled1 {
+    #titre .navbar-brand .partenaires .list-unstyled1 .infos {
         margin: 0 auto;
         font-size: 1.8em; 
     }
-
+    #pres {
+        font-size: 0.8em;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -143,7 +187,9 @@ background-color: rgba(233, 139, 189, 0.432); color: white;
         margin: 0 auto;
         font-size: 2em; 
     }
-
+    #pres {
+        font-size: 1.2em;
+    }
 }
 
  /* Medium devices (tablets, 768px and up) */
@@ -152,7 +198,10 @@ background-color: rgba(233, 139, 189, 0.432); color: white;
         margin: 0 auto;
         font-size: 2.3em; 
     }
- 
+    #pres {
+        font-size: 1.5em;
+    }
+
 }
 
  /* Large devices (desktops, 992px and up) */
@@ -161,7 +210,9 @@ background-color: rgba(233, 139, 189, 0.432); color: white;
         margin: 0 auto;
         font-size: 2em; 
     }
-
+    #pres {
+        font-size: 1.7em;
+    }
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
@@ -170,6 +221,7 @@ background-color: rgba(233, 139, 189, 0.432); color: white;
         margin: 0 auto;
         font-size: 3.5em; 
     }
+
 }
 
 
@@ -232,7 +284,7 @@ input[type=text], input[type=submit] {
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid deeppink;
     box-sizing: border-box;
   }
   
@@ -306,7 +358,7 @@ margin: 10px 50px 0 10px;
 
 /**** CONTAINER1 ****/
 
-.container-index1 {
+.container-index {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
@@ -321,7 +373,7 @@ margin: 10px 50px 0 10px;
     padding: 15px;
 }
 
-.container-index1 img {
+.container-index img {
     width: 60px;
     height: 60px;
 }
@@ -387,6 +439,31 @@ margin: 10px 50px 0 10px;
     border: 2px solid rgb(20, 20, 20);
     border-radius: 5px;
     min-height: 270px;
+}
+/* Mentions legales */
+
+.titremention{
+    justify-content: center;
+    padding: 15px;
+    color: #FF1493
+}
+.mention{
+    display: flex;
+    margin-bottom: 14px;
+    margin: 15px;
+    background-color: rgb(230, 227, 227);
+    border: 1px solid deeppink;
+    border-radius: 5px;
+    min-height: 230px;
+    padding: 5px;
+}
+.legale{
+    margin: 10px;
+}
+.legale h5{
+    text-align: center;
+    color: #FF1493;
+
 }
 
 #margeParteners{

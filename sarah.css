@@ -8,7 +8,7 @@ h1 {
 
 /*****header*******/
 .form-inline .form-control {
-    width: 100%;
+    width: 150%;
 }
 .navbar-light .navbar-nav .nav-link {
     color: rgb(247, 29, 145);
@@ -42,12 +42,9 @@ canvas {
 }
 
 .infos {
-    background-color: rgba(233, 139, 189, 0.432);
+    background-color: deeppink;
     color: white;
-    padding: 15px;
     text-align: center;
-    border-bottom-width: 30px;
-
 }
 
 .card-body p {
@@ -310,7 +307,7 @@ transform: scale(1.5);
 
 /**** CONTAINER1 ****/
 
-.container-index1 {
+.container-index {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
@@ -325,7 +322,7 @@ transform: scale(1.5);
     padding: 15px;
 }
 
-.container-index1 img {
+.container-index img {
     width: 60px;
     height: 60px;
 }
@@ -374,13 +371,10 @@ transform: scale(1.5);
     padding: 15px;
 }
 
-.presentation {
-    padding: 15px;
-    text-align: center;
-}
 
 .coach img {
     width: 150px;
+    display: flex;
 }
 
 .coach {
@@ -389,8 +383,40 @@ transform: scale(1.5);
     background-color: rgb(230, 227, 227);
     border: 2px solid rgb(20, 20, 20);
     border-radius: 5px;
-    min-height: 270px;
+    justify-content: center;    
 }
+
+.presentation {
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.pr{
+    padding: 15px;
+}
+
+.presentationprenom{
+ border: solid 2px deeppink;
+ padding: 4px;
+}
+
+.etvous{
+    display: flex;
+    margin: 15px;
+    background-color:deeppink ;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 5px;
+    justify-content: center;  
+    opacity:0.50;
+    color: black;
+}
+
+.presentationprenomvous{
+    padding: 4px;
+}
+
+
 
 ul li{
     text-decoration: none;
@@ -398,5 +424,64 @@ ul li{
 
 .sugg{
     height: 100px;
-    weight: 50px;
+    width: 50px;
+}
+
+.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: black;
+}
+    
+.rating {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.stars {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 3em;
+}
+.fa-star.gold {
+	color: #ffdc0f;
+}
+.fa-star {
+	color: gray;
+	padding: 0.0625rem;
+}
+
+.etvous .stars:hover .fa-star {
+    color: #ffdc0f;
+}
+
+.etvous .stars .fa-star:hover ~ .fa-star {
+    color: gray;
+}
+
+
+.deeppink{
+    color: deeppink;
+}
+
+.cont{
+    max-width: 1008px;
+    margin: auto;
+}
+
+.cont img{
+    border: 4px solid deeppink;
+}
+
+
+.descr{
+    padding: 15px;
+    color: deeppink;
+}
+
+.total {
+    display: flex;
+    margin: 15px;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 5px;
+    justify-content: center;    
 }

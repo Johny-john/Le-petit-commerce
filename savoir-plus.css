@@ -38,7 +38,8 @@
 .borderImage {
     margin-top: 20px;
     width: 100%;
-    border: 3px solid pink;
+    border: 3px solid deeppink;
+    padding: 3px black;
 }
 
 .borderImage2 {
@@ -62,4 +63,7 @@
 }
 #qi2 {
     margin-top: 30px !important;
+}
+#pinkiblinder{
+    color: deeppink;
 }

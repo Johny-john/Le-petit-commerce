@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="bootstrap.js">
         <!--lien vers style.css----->
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="sarah.css">
         <!--lien vers polices ecritures.css----->
         <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet"> 
         <link
@@ -94,7 +95,7 @@
                         </div>
                     </li>
     
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a
                             class="nav-link dropdown-toggle"
                             href="acessoire.html"
@@ -113,7 +114,7 @@
                                 <a class="dropdown-item" href="chapeaux.html">Chapeaux</a>
                             </div>
                         </div>
-                    </li>
+                    </li> -->
     
                     <!--bouton recherche------->
                         <form class="form-inline my-2 my-lg-2">
@@ -130,8 +131,8 @@
                                 style="background-color: deeppink; color: white;">Go !
                             </button> -->
                         </form>
-                    <!--Bouton panier-->
-                    <a href="#" class="btn">
+                <!--Bouton panier-->
+                <a href="panier.html" class="btn">
                         <img src="img/panier.png" alt="panier"></a>
                     <!-- Langues -->
                     <li class="nav-item dropdown">
@@ -209,7 +210,7 @@
                             </div>
                             <div class="card-body">
                                     <p class="card-text">
-                                        <h4>Sac en paille !</h4><hr>
+                                        <h4>Sac en paille <img src="img/coeur.png" style="width: 30px; height: 30px"></h4><hr>
                                         <p>Sac en bandoulière rond en paille. A transporter partout ! </p>
                                         <h5><br>Prix: 65,90€
                                         </h5>
@@ -410,7 +411,7 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-text">
-                                    <h4>Sac en croco !</h4><hr>
+                                    <h4>Sac en croco </h4><hr>
                                     <p>Sac de crocodile en relief 2 pièces</p>
                                     <h5><br>Prix: 65,90€
                                     </h5>
@@ -522,7 +523,7 @@
                     Au 19ème siècle, le sac à main est devenu un accessoire de mode à part entière puisqu’il s’assortit désormais à la tenue et se fabrique avec de précieux tissus et est brodé de perles ou de pierres.
                      Comme les bijoux, il montre à quel rang social on appartient. </div>
                      <div class="col-sm-6 col-md-6 col-lg-4"><img src="img/sacs-decription.jpg" class="d-block w-100 rounded-circle"></div>
-                     <div class="col-sm-6 col-md-6 col-lg-4">Caractéristiques et propriétés :<br>
+                     <div class="col-sm-12 col-md-12 col-lg-4">Caractéristiques et propriétés :<br>
                         S’inspirant de cette baguagerie de luxe, les sacs à main s’agrandissent pour contenir la panoplie de ces dames de la haute société : matériels de couture, bijoux, argents, éventails, bref tout ce qu’il faut, notamment de quoi s’occuper pendant les voyages. au monde! Il est très présent en Europe et ce, depuis très longtemps.
                         Le sac à main connaît ensuite des hauts et des bas pendant le siècle, en fonction de la mode et de l’économie. </div>
                     </div> 
@@ -533,7 +534,7 @@
                      <div class="col-sm-6 col-md-6 col-lg-4"><img src="img/sacs-decription1.jpg" class="d-block w-100 rounded-circle"></div>
                          <div class="col-sm-6 col-md-6 col-lg-4"> Dans les années 20, le sac à main rétrécit, il ne peut contenir qu’un rouge à lèvres et un paquet de cigarettes : le minium pour passer une soirée au top pendant cette ère du charleston ! Ces dames pouvaient ainsi enflammer le dancefloor sans être encombrées. Au cours de la décennie 1930, la minaudière devient l’accessoire fétiche des fashionistas de l’époq
                              C’est un petit sac rigide très élégant qui est plutôt d’usage pour les sorties. </div>
-                                  <div class="col-sm-10 col-md-8 col-lg-4"><img src="img/sacs-decription2.jpg" class="d-block w-100 rounded-circle"></div>
+                                  <div class="col-sm-6 col-m6 col-lg-4"><img src="img/sacs-decription2.jpg" class="d-block w-100 rounded-circle"></div>
                  </div>     
          </div>       
               
@@ -581,97 +582,99 @@
                           </li>
                       </ul>
                   </div>
-                  <!--newsletter-->
+              <!--newsletter-->
 
-                  <form action="/action_page.php">
-                      <div class="container">
-                          <h3>Newsletter</h3>
-                          <p>Abonnées vous à notre Newsletter pour toute promotions de derniere minutes</p>
-                      </div>
-                      </form>
-
-                      <div class="container">
-                          <input
-                              id="name-new"
-                              type="text"
-                              placeholder="Nom, prénom"
-                              name="name"
-                              required="required">
-                              <input
-                                  id="email-news"
-                                  type="email"
-                                  placeholder="Adresse mail"
-                                  name="mail"
-                                  required="required">
-                                  <label>
-                                      <input type="checkbox" checked="checked" name="Validez">
-                                          Newsletter
-                                      </label>
-                                  </div>
-
-                                  <div class="container">
-                                      <input type="submit" value="Valider"></div>
-                    <!-- Footer -->
-
-  <footer class="page-footer font-small pt-4">
-
-          <div class="container-fluid text-center text-md-left">
-  
-              <div class="row">
-  
-                  <div class="col-md-6 mt-md-0 mt-3">
-  
-                      <h5 class="text-uppercase">Qui sommes nous?</h5><br>
-                      <p>Créée durant l'été 2019, cette boutique d'e-commerce s'adresse à tous les
-                          passionnés du shopping. Contactez-nous pour plus d'informations.</p>
-  
-                  </div>
-  
-                  <hr class="clearfix w-100 d-md-none pb-3">
-  
-                  <div class="col-md-3 mb-md-0 mb-3">
-  
-                      <h5 class="text-uppercase">Services</h5>
-  
-                      <ul class="list-unstyled">
-                          <li>
-                              <a href="#!">Contacts</a>
-                          </li>
-                          <li>
-                              <a href="#!">Plan du site</a>
-                          </li>
-                          <li>
-                              <a href="#!">Mentions légales</a>
-                          </li>
-                          <li>
-                              <a href="#!">Conditions générales de vente</a>
-                          </li>
-                      </ul>
-                  </div>
-  
-                  <div class="col-md-3 mb-md-0 mb-3">
-  
-                      <h5 class="text-uppercase">Contacts</h5>
-  
-                      <ul class="list-unstyled">
-                          <li>
-                              <a href="boutique.html">Qui sommes nous ?</a>
-                          </li>
-                          <li>
-                              <a href="#!">Newsletter</a>
-                          </li>
-                          <li>
-                              <a href="#!">Email</a>
-                          </li>
-                          <li>
-                              <a href="#!">Facebook</a>
-                          </li>
-                          <li>
-                              <a href="#!">Twitter</a>
-                          </li>
-                      </ul>
-                  </div>
-      </footer>
+<form action="/action_page.php">
+    <div class="container">
+        <h3>Newsletter</h3>
+        <p>Abonnez vous à notre Newsletter pour toute promotion de derniere minute.</p>
+    </div>
+    </form>
+    
+    <div class="container">
+    <input
+        id="name-new"
+        type="text"
+        placeholder="Nom, prénom"
+        name="name"
+        required="required">
+    <input
+        id="email-news"
+        type="email"
+        placeholder="Adresse mail"
+        name="mail"
+        required="required">
+    <label>
+        <input type="checkbox" checked="checked" name="Validez">
+       Veuillez accepter nos <a href="condition-generale-de-vente.html">conditions générales de vente</a> Cliquez ici.
+    </label>
+    </div>
+    
+    <div class="container">
+    <input type="submit" value="Valider"></div>
+    <!-- Footer -->
+    
+    <footer class="page-footer font-small pt-4">
+    
+    <div class="container-fluid text-center text-md-left">
+    
+        <div class="row">
+    
+            <div class="col-md-6 mt-md-0 mt-3">
+    
+                <h5 class="text-uppercase">Qui sommes nous?</h5><br>
+                <p>Crée durant l'été 2019, cette boutique d'e-commerce est un site à but non lucratif,
+                    Le but ici étant de démontrer nos talents, mais surtout de partager un plaisir de développer nos compétences.
+                 Site réalisé par : <br> 
+                    <p style="color: deeppink">Jonathan, Sarah & Saüla.</p> Contacter IFOCOP PARIS XI, pour plus d'informations.</p>
+    
+            </div>
+    
+            <hr class="clearfix w-100 d-md-none pb-3">
+    
+            <div class="col-md-3 mb-md-0 mb-3">
+    
+                <h5 class="text-uppercase">Services</h5>
+    
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="index1.html">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#!">Plan du site</a>
+                    </li>
+                    <li>
+                        <a href="mention-legale.html">Mentions légales</a>
+                    </li>
+                    <li>
+                        <a href="condition-generale-de-vente.html">Conditions générales de vente</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="col-md-3 mb-md-0 mb-3">
+    
+                <h5 class="text-uppercase">Contacts</h5>
+    
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="boutique.html">Qui sommes nous ?</a>
+                    </li>
+                    <li>
+                        <a href="#!">Newsletter</a>
+                    </li>
+                    <li>
+                        <a href="#!">Email</a>
+                    </li>
+                    <li>
+                        <a href="#!">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#!">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
       
               <div class="footer-copyright text-center py-3">© 2019 Copyright IFOCOP-DIW52
               </div>
@@ -695,7 +698,7 @@
                 document
                     .getElementById('recherche')
                     .style
-                    .cssText = "background-color:pink";
+                    .cssText = "background-color:deeppink";
             }
             
             function monBlur() {

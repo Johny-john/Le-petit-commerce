@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="sao.css">
+        <link rel="stylesheet" href="index.html">
+
+        <!--lien vers botstrap.css----->
+        <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="bootstrap.js">
+
+               <!--lien vers polices ecritures.css----->
+               <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet"> 
+
+        <title>Contact</title>
+    </head>
+    <body class="index">
+        <div id="#">
+            <div class="login-box formulaire">
+               <div id="titre"> <h1>Le Petit Commerce</h1></div>
+
+                <div class="textbox" id="recherche">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" placeholder="Prénom." name="Prenom" value="" required="required">
+                </div>
+
+                <div class="textbox" id="recherhce">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" placeholder="Nom." name="Prenom" value="" required="required">
+                    </div>
+
+                <div class="textbox">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="email" placeholder="Mail" name="mail" value="" required="required">
+                   
+                </div>
+
+                <div class="textbox">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="number" placeholder="téléphone" name="number" value="">
+                </div>   
+
+                <div class="textbox">
+                      
+                    <input type="checkbox" name="choix" value="choix1" required="required">Hommes
+                    <input type="checkbox" name="choix" value="choix2" required="required">Femmes
+
+                </div>   
+
+                <label for="pays">Quel âges avez-vous s'il vous plait ?</label>
+                <select name="choix" id="formulaire-ages">
+                    <optgroup label="choix2">
+                            <option value="fr" selected>11</option>
+                            <!-- selected : option selectionnée par défaut -->
+                        </optgroup> 
+                        <option value="fr">12</option>
+                        <option value="fr">13</option>
+                        <option value="fr">14</option>
+                        <option value="fr">15</option>
+                        <option value="fr">16</option>
+                        <option value="fr">17</option>
+                        <option value="fr">18</option>
+                        <option value="fr">19</option>
+                        <option value="fr">20</option>
+                        <option value="fr">21</option>
+                        <option value="fr">22</option>
+                        <option value="fr">23</option>
+                        <option value="fr">24</option>
+                        <option value="fr">25</option>
+                        <option value="fr">26</option>
+                        <option value="fr">27</option>
+                        <option value="fr">28</option>
+                        <option value="fr">29</option>
+                        <option value="fr">30</option>
+                        <option value="fr">31</option>
+                        <option value="fr">32</option>
+                        <option value="fr">33</option>
+                        <option value="fr">34</option>
+                        <option value="fr">35</option>
+                        <option value="fr">36</option>
+                        <option value="fr">37</option>
+                        <option value="fr">38</option>
+                        <option value="fr">39</option>
+                        <option value="fr">41</option>
+                        <option value="fr">42</option>
+                        <option value="fr">43</option>
+                        <option value="fr">44</option>
+                        <option value="fr">45</option>
+                        <option value="fr">46</option>
+                        <option value="fr">47</option>
+                        <option value="fr">48</option>
+                        <option value="fr">49</option>
+                        <option value="fr">50</option>
+                       
+                </select>
+
+
+
+
+                <div class="textbox" style="color: deeppink;">Pour déposer un CV en candidature spontanées !<hr>
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="file" placeholder="CV" name="" value="">
+                </div>   
+            
+                <a href="index.html" class="btn" type="bouton" style="background-color: deeppink; color: ghostwhite">Valider</a>
+                    
+            </div>
+        </div>
+         <!--Script Jquery------>
+         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+         <!--function barre de recherche-->
+         <script>
+ 
+             document
+                 .getElementById('recherche')
+                 .addEventListener("focus", monFocus);
+             document
+                 .getElementById('recherche')
+                 .addEventListener("blur", monBlur);
+ 
+             function monFocus() {
+                 this.style.cssText = "background-color:white";
+                 document
+                     .getElementById('recherche')
+                     .style
+                     .cssText = "background-color:deeppink";
+             }
+ 
+             function monBlur() {
+                 this.style.cssText = "background-color:white";
+             }
+         </script>
+ 
+         <script src="vitrine.js"></script>
+ 
+         <script
+             src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+             integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+             crossorigin="anonymous"></script>
+         <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    
+
+
+    
+        
+
+        </body>
+    </html>
