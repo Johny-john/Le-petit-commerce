@@ -100,7 +100,11 @@ h1{
     background-size: cover;
     background-position-y: 29%;
 }
-
+.img-banniere14{
+    background-image: url(img/imgf3.jpg);
+    background-size: cover;
+    background-position-y: 37%;
+}
 .collection-homme { 
     color: #ebecec;
 }
