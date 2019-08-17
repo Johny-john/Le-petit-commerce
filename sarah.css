@@ -307,7 +307,7 @@ transform: scale(1.5);
 
 /**** CONTAINER1 ****/
 
-.container-index1 {
+.container-index {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
@@ -322,7 +322,7 @@ transform: scale(1.5);
     padding: 15px;
 }
 
-.container-index1 img {
+.container-index img {
     width: 60px;
     height: 60px;
 }

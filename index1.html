@@ -3,472 +3,136 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="sao.css">
+        <link rel="stylesheet" href="index.html">
+
         <!--lien vers botstrap.css----->
         <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
-        <!--lien vers style.css----->
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="sarah.css">
-        <link rel="stylesheet" href="sao.css">
-        <!--lien vers polices ecritures.css----->
-        <link
-            href="https://fonts.googleapis.com/css?family=Monoton&display=swap"
-            rel="stylesheet">
-        <!--lien vers les liens.html----->
-        <link rel="stylesheet" href="femme.html">
-        <link rel="stylesheet" href="homme.html">
-        <link rel="stylesheet" href="pantalon-femme.html">
-        <link rel="stylesheet" href="boutique.html">
-        <link rel="stylesheet" href="ceinture-femme.html">
-        <link
-            href="https://fonts.googleapis.com/css?family=Prata&display=swap"
-            rel="stylesheet">
-        <title>Le Petit Commerce</title>
+        <link rel="stylesheet" href="bootstrap.js">
 
+               <!--lien vers polices ecritures.css----->
+               <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet"> 
+
+        <title>Contact</title>
     </head>
-    <body>
+    <body class="index">
+        <div id="#">
+            <div class="login-box formulaire">
+               <div id="titre"> <h1>Le Petit Commerce</h1></div>
 
-        <!----------header--------->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index1.html">
-                <img
-                    src="img/logo.png"
-                    alt="logo"
-                    style="display: flex; width: 60px; height: 60px;"></a>
+                <div class="textbox" id="recherche">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" placeholder="Prénom." name="Prenom" value="" required="required">
+                </div>
 
-    </ul>
-    <div id="titre">Le Petit Commerce</div>
-    <ul>
-
-        <!--Navbar--------->
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-                    <a
-                        class="nav-link dropdown-toggle"
-                        href="femme.html"
-                        role="button"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false">Femme</a>
-                    <div class="dropdown-menu flex-row" aria-labelledby="navbarDropdown">
-                        <div class="col">
-                            <a class="dropdown-item" href="femme.html">Collection femmes</a>
-                            <a class="dropdown-item" href="pantalon-femme.html">Pantalons</a>
-                            <a class="dropdown-item" href="robe-femme.html">Robes</a>
-                            <a class="dropdown-item" href="sac-femme.html">Sacs</a>
-                            <a class="dropdown-item" href="chaussure-femme.html">Chaussures</a>
-                            <a class="dropdown-item" href="maillot-femme.html">Maillot bain</a>
-                            
-                        </div>
+                <div class="textbox" id="recherhce">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" placeholder="Nom." name="Prenom" value="" required="required">
                     </div>
-                </li>
 
-                <li class="nav-item dropdown">
-                    <a
-                        class="nav-link dropdown-toggle"
-                        href="homme.html"
-                        role="button"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false">Hommes</a>
-                    <div class="dropdown-menu flex-row" aria-labelledby="navbarDropdown">
-                        <div class="col">
-                            <a class="dropdown-item" href="homme.html">Collection hommes</a>
-                            <a class="dropdown-item" href="pantalon-homme.html">Pantalons</a>
-                            <a class="dropdown-item" href="tshirt-homme.html">T-shirts</a>
-                            <a class="dropdown-item" href="polo-homme.html">Polos</a>
-                            <a class="dropdown-item" href="veste-homme.html">Vestes</a>
-                            <a class="dropdown-item" href="chemise-homme.html">Chemises</a>
-                        </div>
-                    </div>
-                </li>
+                <div class="textbox">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="email" placeholder="Mail" name="mail" value="" required="required">
+                   
+                </div>
 
-                <li class="nav-item dropdown">
-                    <a
-                        class="nav-link dropdown-toggle"
-                        href="acessoire.html"
-                        role="button"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false">
-                        Accessoires
-                    </a>
-                    <div class="dropdown-menu flex-row" aria-labelledby="navbarDropdown">
-                        <div class="col">
-                            <a class="dropdown-item" href="lunette.html">Lunettes</a>
-                            <a class="dropdown-item" href="montre.html">Montres</a>
-                            <a class="dropdown-item" href="ceinture-femme.html">Ceintures</a>
-                            <a class="dropdown-item" href="bijoux.html">Bijoux</a>
-                            <a class="dropdown-item" href="chapeaux.html">Chapeaux</a>
-                        </div>
-                    </div>
-                </li>
+                <div class="textbox">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="number" placeholder="téléphone" name="number" value="" required="required">
+                </div>   
 
-                <!--bouton recherche------->
-                    <form class="form-inline my-2 my-lg-2">
-                        <input
-                            id="recherche"
-                            class="form-control mr-sm-2 m-lg-2"
-                            type="search"
-                            placeholder="Je veux ..."
-                            aria-label="Search">
-                        <!-- bouton GO
-                        <button
-                            class="btn btn-outline-light my-2 my-sm-1 "
-                            type="submit"
-                            style="background-color: deeppink; color: white;">Go !
-                        </button> -->
-                    </form>
-                <!--Bouton panier-->
-                <a href="panier.html" class="btn">
-                    <img src="img/panier.png" alt="panier"></a>
-                <!-- Langues -->
-                <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Anglais</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown09">
-                            <a class="dropdown-item" href="#fr">Français</a>
-                            <a class="dropdown-item" href="#it">Italien</a>
-                        </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- SLIDER -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">1</li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1">2</li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="img/imgh1.jpg" alt="First slide">
+                <div class="textbox">
+                      
+                    <input type="checkbox" name="choix" value="choix1" required="required">Hommes
+                    <input type="checkbox" name="choix" value="choix2" required="required">Femmes
+
+                </div>   
+
+                <label for="pays">Quels Ages avez vous ?</label>
+                <select name="choix" id="formulaire-ages">
+                    <optgroup label="choix2">
+                        <option value="fr">12</option>
+                        <option value="fr">13</option>
+                        <option value="fr">14</option>
+                        <option value="fr">15</option>
+                        <option value="fr">16</option>
+                        <option value="fr">17</option>
+                        <option value="fr">18</option>
+                        <option value="fr">19</option>
+                        <option value="fr">20</option>
+                        <option value="fr">21</option>
+                        <option value="fr">22</option>
+                        <option value="fr">23</option>
+                        <option value="fr">24</option>
+                        <option value="fr">25</option>
+                        <option value="fr">26</option>
+                        <option value="fr">27</option>
+                        <option value="fr">28</option>
+                        <option value="fr">29</option>
+                        <option value="fr">30</option>
+                        <option value="fr">11</option>
+                        <option value="fr">11</option>
+                        <option value="fr">11</option>
+                        <option value="fr">11</option>
+                        <option value="fr">11</option>
+
+                        <option value="es" selected>21 ans</option>
+                        <!-- selected : option selectionnée par défaut -->
+                    </optgroup> 
+                </select>
+
+
+
+
+                <div class="textbox" style="color: deeppink;">Pour déposer un CV en candidature spontanées !<hr>
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="file" placeholder="CV" name="" value="">
+                </div>   
+            
+                <a href="index.html" class="btn" type="bouton" style="background-color: deeppink; color: ghostwhite">Valider</a>
+                    
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/imgf5.jpg" alt="Second slide">
-            </div>
-            <!-- <div class="carousel-item"> <img class="d-block w-100"
-            src="img/QuisommesNous.jpg" alt="3 slide"> </div> -->
-            <a
-                class="carousel-control-prev"
-                href="#carouselExampleIndicators"
-                role="button"
-                data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a
-                class="carousel-control-next"
-                href="#carouselExampleIndicators"
-                role="button"
-                data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
-    </div>
+         <!--Script Jquery------>
+         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-    <!-- MESSAGE DEFILANT -->
+         <!--function barre de recherche-->
+         <script>
+ 
+             document
+                 .getElementById('recherche')
+                 .addEventListener("focus", monFocus);
+             document
+                 .getElementById('recherche')
+                 .addEventListener("blur", monBlur);
+ 
+             function monFocus() {
+                 this.style.cssText = "background-color:white";
+                 document
+                     .getElementById('recherche')
+                     .style
+                     .cssText = "background-color:pink";
+             }
+ 
+             function monBlur() {
+                 this.style.cssText = "background-color:white";
+             }
+         </script>
+ 
+         <script src="vitrine.js"></script>
+ 
+         <script
+             src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+             integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+             crossorigin="anonymous"></script>
+         <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    
 
-    <canvas id="defilant" width='700' height='100'></canvas>
 
-    <!-- PRESENTATION PRODUITS -->
-
-    <div class="infos">
-        <br>
-        <p class="num1"><span class="myDot0">&nbsp</span>  Collections Hommes & Femmes  <span class="myDot0">&nbsp</span></p>
+    
         
-    </div>
 
-    <div class="albums py-5 bg-light">
-        <div class="container">
-
-            <div class="row">
-                <!--------card présentation-->
-
-                <div class=" col-sm-6 col-md-6 col-lg-4">
-                    <div class="card mb-4 box-shadow">
-                        <div>
-                            <img class="d-block w-100 img-accessoire" src="img/maillot4.jpg">
-                        </div>
-                        <div class="card-body">
-                            <h4>
-                                <a href="maillot-femme.html" style="color: deeppink">Nos maillots</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-                <!--------card présentation-->
-
-                <div class=" col-sm-6 col-md-6 col-lg-4">
-                    <div class="card mb-4 box-shadow">
-                        <div>
-                            <img class="d-block w-100 img-accessoire" src="img/pantalonFemme3-2.jpg">
-                        </div>
-                        <div class="card-body">
-                            <h4>
-                                <a href="pantalon-femme.html" style="color: deeppink">Nos pantalons</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-                <!--------card présentation-->
-
-                <div class=" col-sm-6 col-md-6 col-lg-4">
-                    <div class="card mb-4 box-shadow">
-                        <div>
-                            <img class="d-block w-100 img-accessoire" src="img/robeF.jpg">
-                        </div>
-                        <div class="card-body">
-                            <h4>
-                                <a href="robe-femme.html" style="color: deeppink">Nos robes</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-                <!--------card présentation-->
-
-                <div class=" col-sm-6 col-md-6 col-lg-4">
-                    <div class="card mb-4 box-shadow">
-                        <div>
-                            <img class="d-block w-100 img-accessoire" src="img/fleur.jpg">
-                        </div>
-                        <div class="card-body">
-                            <h4>
-                                <a href="chemise-homme.html" style="color: deeppink">Nos chemises</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-                <!--------card présentation-->
-
-                <div class=" col-sm-6 col-md-6 col-lg-4">
-                    <div class="card mb-4 box-shadow">
-                        <div>
-                            <img class="d-block w-100 img-accessoire" src="img/polo2.jpg">
-                        </div>
-                        <div class="card-body">
-                            <h4>
-                                <a href="polo-homme.html" style="color: deeppink">Nos polos</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-                <!--------card présentation-->
-
-                <div class=" col-sm-6 col-md-6 col-lg-4">
-                    <div class="card mb-4 box-shadow">
-                        <div>
-                            <img class="d-block w-100 img-accessoire" src="img/accessoire1.jpg">
-                        </div>
-                        <div class="card-body">
-                            <h4>
-                                <a href="#" style="color: deeppink">Nos accessoires</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-------mentions légales ---------->
-
-        <section class="container-index1">
-            <div class="item1 item1-1">
-                <a href="reservation.html"><img src="img/Calendar.png" class="calendar"></a><br><br>
-                Pour prendre rendez-vous avec nos coachs</div>
-            <div class="item1 item1-2">
-                <a href="avis.html"><img src="img/comment.png" class="comment"></a><br><br>
-                Venez consulter nos différents avis</div>
-            <div class="item1 item1-3">
-                <a href="actu.html"><img src="img/e-commerce.png" class="e-commerce"></a><br><br>
-                Suivez les tendances actuelles dans l'e-commerce</div>
-        </section>
-
-        <section class="container-index2">
-            <div class="item2 item2-1"><img src="img/yes.png"><br><br>
-                Satisfait ou remboursé?</div>
-            <div class="item2 item2-2"><img src="img/call.png"><br><br>
-                Besoin d'aide? Appelez-nous gratuitement au 01 23 45 67 89</div>
-            <div class="item2 item2-3"><img src="img/card.png"><br><br>
-                Paiement sécurisé</div>
-        </section>
-
-        <!-- Partners Payment -->
-        <div class="container blanc" id="margeParteners">
-            <div class="container-fluid">
-                <ul class="partenaires row">
-
-                    <li class="col">
-                        <a class="cb" href="linkSite"></a>
-                        <img src="img/logo cb.PNG" alt="carte bleu"></a>
-                </li>
-
-                <li class="col">
-                    <a class="paylib" href="linkSite"></a>
-                    <img src="img/paylib logo.png" alt="paylib"></a>
-            </li>
-            <li class="col">
-                <a class="paypal" href="linkSite">
-                    <img src="img/Logo-PayPal.png" alt="paypal"></a>
-            </li>
-
-            <li class="col">
-                <a class="mastercard" href="linkSite">
-                    <img src="img/MasterCard_Logo.svg.png" alt=""></a>
-            </li>
-            <li class="col">
-                <a class="maestro" href="linkSite">
-                    <img src="img/2000px-Maestro_1992_logo.svg.png" alt="maestro"></a>
-            </li>
-
-            <li class="col">
-                <a class="cheque" href="linkSite">
-                    <img src="img/cheque-cadeau logo.png" alt="cheque"></a>
-            </li>
-            <li class="col">
-                <a class="illicado" href="linkSite"></a>
-                <img src="img/logo-illicado.jpg" alt="illicado"></a>
-        </li>
-        <!-- Partners Delivery -->
-        <li class="col">
-            <a class="chronopost" href="linkSite">
-                <img src="img/logo-chronopost-web.jpg" alt="chronopost"></a>
-        </li>
-    </ul>
-</div>
-</div>
-<!--newsletter-->
-
-<form action="/action_page.php">
-<div class="container">
-    <h3>Newsletter</h3>
-    <p>Abonnées vous à notre Newsletter pour toute promotions de derniere minutes</p>
-</div>
-</form>
-
-<div class="container">
-<input
-    id="name-new"
-    type="text"
-    placeholder="Nom, prénom"
-    name="name"
-    required="required">
-<input
-    id="email-news"
-    type="email"
-    placeholder="Adresse mail"
-    name="mail"
-    required="required">
-<label>
-    <input type="checkbox" checked="checked" name="Validez">
-   Accepter nos conditions général de ventes en lignes, ceci étant que purement fictif ! 
-</label>
-</div>
-
-<div class="container">
-<input type="submit" value="Valider"></div>
-<!-- Footer -->
-
-<footer class="page-footer font-small pt-4">
-
-<div class="container-fluid text-center text-md-left">
-
-    <div class="row">
-
-        <div class="col-md-6 mt-md-0 mt-3">
-
-            <h5 class="text-uppercase">Qui sommes nous?</h5><br>
-            <p>Crée durant l'été 2019, cette boutique d'e-commerceet site à but non lucratif,
-                Le but ici étant de démontré nos talents, mais surtout un plaisir de partagées un projet en
-                communs. Site réaliser par : <br> 
-                <p style="color: deeppink">Jonathan , Sarah & Saüla.</p> Contactez IFOCOP PARIS XI, pour plus d'informations.</p>
-
-        </div>
-
-        <hr class="clearfix w-100 d-md-none pb-3">
-
-        <div class="col-md-3 mb-md-0 mb-3">
-
-            <h5 class="text-uppercase">Services</h5>
-
-            <ul class="list-unstyled">
-                <li>
-                    <a href="#!">Contacts</a>
-                </li>
-                <li>
-                    <a href="#!">Plan du site</a>
-                </li>
-                <li>
-                    <a href="mention-legale.html">Mentions légales</a>
-                </li>
-                <li>
-                    <a href="condition-generale-de-vente.html">Conditions générales de vente</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="col-md-3 mb-md-0 mb-3">
-
-            <h5 class="text-uppercase">Contacts</h5>
-
-            <ul class="list-unstyled">
-                <li>
-                    <a href="boutique.html">Qui sommes nous ?</a>
-                </li>
-                <li>
-                    <a href="#!">Newsletter</a>
-                </li>
-                <li>
-                    <a href="#!">Email</a>
-                </li>
-                <li>
-                    <a href="#!">Facebook</a>
-                </li>
-                <li>
-                    <a href="#!">Twitter</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
-    <!-- Footer map-->
-
-    <div id="map-container-google-1" class="z-depth-1-half map-container">
-        Pour nous trouver plus facilement !
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.816335633715!2d2.3686924157796887!3d48.861712579287925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66dfc3751dc55%3A0xb5ee5babe14b6d30!2s37+Rue+Saint-S%C3%A9bastien%2C+75011+Paris!5e0!3m2!1sfr!2sfr!4v1563889351321!5m2!1sfr!2sfr"
-            frameborder="0"
-            style="border:0"
-            allowfullscreen="allowfullscreen"></iframe>
-    </div>
-
-    <div class="footer-copyright text-center py-3">© 2019 Copyright IFOCOP-DIW52</div>
-
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-
-    <script src="vitrine.js"></script>
-
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
-</body>
-</html>
+        </body>
+    </html>
