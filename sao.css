@@ -14,16 +14,17 @@
     margin-top: 15px;
     font-weight: 600;
     font-size: 32px;
+    color: deeppink;
 }
 .rectangle {
-    width: 12px;
+    width: 5px;
     height: 60px;
-    background: #000;
+    background: deeppink;
     float: left;
     margin-right: 15px;
 }
 .trait {
-    border-bottom: 1px solid #666;
+    border-bottom: 1px solid deeppink;
     clear: both;
 }
 .lisret2 {
@@ -34,9 +35,9 @@
     font-weight: 600;
 }
 .rectangle2 {
-    width: 12px;
+    width: 5px;
     height: 60px;
-    background: #000;
+    background: deeppink;
     float: right;
     margin-top: 10px;
     margin-left: 12px;
@@ -52,7 +53,7 @@
 }
 .img-q2 {
     background-image: url("img/map.webp");
-    height: 500px;
+    height: 370px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -125,7 +126,7 @@
         margin-bottom: 25px;
     }
 }
-
+/* 
 .decoArt {
     display: flex;
 }
@@ -135,6 +136,7 @@
     flex-direction: row-reverse;
 }
 
+*/
 .myDot0 {
     width: 30px;
     height: 1px;
@@ -146,10 +148,10 @@
 .myDot1 {
     width: 30px;
     height: 1px;
-    background: #000;
+    background: black;
     margin-bottom: 10px;
     display: inline-block;
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 .myDot1b {
     width: 30px;
@@ -171,6 +173,7 @@
     line-height: 0;
     padding-left: 10px;
     padding-right: 10px;
+    color: deeppink
 }
 
 .blockInArticle {
@@ -213,12 +216,12 @@
 
 .addInfo {
     margin-left: 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid deeppink;
 }
 
 .addInfo2 {
     margin-right: 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid deeppink;
 }
 
 .addInfo:hover {
@@ -234,7 +237,7 @@
 .tMaj {
     float: left;
     text-transform: uppercase;
-    color: #000;
+    color: deeppink;
     font-weight: 600;
     font-size: 41px;
     line-height: 10px;
@@ -243,6 +246,7 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 50px;
+    color: black;
 }
 
 .rowlog {
@@ -254,7 +258,9 @@
 .blockArticle {
     margin-bottom: 25px;
 }
+
 /*formulaire de contact*/
+
 #form34{
 border-radius: 15px;
 }
@@ -294,6 +300,7 @@ border-radius: 15px;
 }
 /* modal formulaire de contact */
 
+/*
 .modal-content{    
     background-color:#c08fac!important;
     opacity: 0.9;
@@ -326,7 +333,7 @@ border-radius: 15px;
 /* caisse-css*/
 /*******************************************/
 
-
+/* 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC&display=swap");
 
@@ -336,15 +343,15 @@ border-radius: 15px;
         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
-}
+} */
 
-* {
+/* * {
     box-sizing: border-box;
     font-family: Raleway;
     color: #777;
-}
+} */
 
-body,
+/* body,
 html {
     margin: 0;
     padding: 0;
@@ -412,7 +419,7 @@ html {
     padding: 0 1.5em;
 }
 .section-header {
-    font-family: 'Amatic SC', cursive;
+  
     font-weight: normal;
     color: deeppink;
     text-align: center;
@@ -666,8 +673,9 @@ html {
 .btn-purchase {
     display: block;
     margin: 40px auto 80px;
-    font-size: 1.75em;
-}
+    font-size: 1.75em; 
+} */
+
 
 
 

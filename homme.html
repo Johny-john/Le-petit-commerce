@@ -82,7 +82,7 @@
                         role="button"
                         data-toggle="dropdown"
                         aria-haspopup="true"
-                        aria-expanded="false">Hommes</a>
+                        aria-expanded="false">Homme</a>
                     <div class="dropdown-menu flex-row" aria-labelledby="navbarDropdown">
                         <div class="col">
                             <a class="dropdown-item" href="homme.html">Collection hommes</a>
@@ -138,9 +138,9 @@
                     <img src="img/panier.png" alt="panier"></a>
                 <!-- Langues -->
                 <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Anglais</a>
+                        <a class="nav-link dropdown-toggle" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Français</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown09">
-                            <a class="dropdown-item" href="#fr">Français</a>
+                            <a class="dropdown-item" href="#fr">Anglais</a>
                             <a class="dropdown-item" href="#it">Italien</a>
                         </div>
                 </li>
@@ -152,7 +152,7 @@
 
     <main role="main">
         <section class="jumbotron text-center img-banniere2">
-            <div class="container collection-homme">
+            <div class="container .collection-femme">
 
                 <h2 class="jumbotron-heading ">
                     Collection Hommes</h2>
@@ -162,7 +162,7 @@
 
             </div>
         </section>
-    </main>
+    
     <!--------------------menu Cartes-------------------->
     <div class="albums py-5 bg-light">
         <div class="container">
@@ -522,6 +522,8 @@
                 </div>
             </div>
         </div>
+        </div>
+        </main>
         <!------------Description montres------------->
 
         <div class="infos">
@@ -708,20 +710,13 @@
         <!--function barre de recherche-->
         <script>
 
-            document
-                .getElementById('recherche')
-                .addEventListener("focus", monFocus);
-            document
-                .getElementById('recherche')
-                .addEventListener("blur", monBlur);
-
-
-            function monFocus() {
-                this.style.cssText = "background-color:white";
+                document
+                    .getElementById('recherche')
+                    .addEventListener("focus", monFocus);
                 document
                     .getElementById('recherche')
                     .addEventListener("blur", monBlur);
-
+    
                 function monFocus() {
                     this.style.cssText = "background-color:white";
                     document
@@ -729,13 +724,12 @@
                         .style
                         .cssText = "background-color:deeppink";
                 }
-            }
-
+    
                 function monBlur() {
                     this.style.cssText = "background-color:white";
                 }
             </script>
-
+    
             <script src="vitrine.js"></script>
 
             <script
