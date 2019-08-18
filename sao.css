@@ -675,3 +675,94 @@ html {
 
 
 
+.desEvent {
+    padding: 50px 60px 0;
+}
+.ndesEvent {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 20px 0;
+}
+.infoEvent{
+    margin-left: 210px;
+}
+.infoEvent2{
+    margin-left: 222px;
+}
+.imgEvent{
+    
+    width: 100%;
+    order: 2px solid deeppink !important;
+}
+ .creditPhoto{
+     float: left;
+ }
+
+ .centerEvent{
+     text-align: center;
+     border: 2px solid deeppink;
+ }
+
+
+ .logoFlottant{
+    display: block;
+    width: 100%;
+    padding-bottom: 7.5%;
+    background: url(img/Event.png) no-repeat;
+    background-size: auto !important;
+    background-size: auto 100% !important;
+    -webkit-backface-visibility: hidden !important;
+    backface-visibility: hidden;
+    margin: 0 auto;
+    position: fixed;
+    margin-top: 185px;
+    opacity: 0.9;
+    
+}
+.logoSurvol{
+    position: fixed;
+    top: 50px;
+    color: #FF0000;
+    margin-top: 185px;
+    opacity: 0.6;
+}
+.logoSurvol{    
+    color: #fff;
+    opacity: 0.9;
+}
+.logoSurvol {
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 1.03px;
+    line-height: 0.4;
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+    
+}
+#margTop{
+    opacity: 0.9;
+    margin-top: 185px;
+}
+#imgEventCar{
+    width: 100%;
+}
+#borderCarous{
+    border: 5px solid deeppink !important;
+}
+.nbPages{
+    text-align: center;
+    border: 1px solid black;
+}
+.nbPages:hover{
+    background-color: deeppink;
+    
+}
+
+.pages{
+    text-align: center;
+    
+}
