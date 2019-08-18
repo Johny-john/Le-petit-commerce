@@ -53,7 +53,7 @@
 }
 .img-q2 {
     background-image: url("img/map.webp");
-    height: 500px;
+    height: 370px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -237,7 +237,7 @@
 .tMaj {
     float: left;
     text-transform: uppercase;
-    color: #000;
+    color: deeppink;
     font-weight: 600;
     font-size: 41px;
     line-height: 10px;
@@ -246,7 +246,7 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 50px;
-    color: deeppink;
+    color: black;
 }
 
 .rowlog {
