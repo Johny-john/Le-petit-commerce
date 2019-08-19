@@ -148,6 +148,8 @@ height: 20%;
     flex-direction: right;
 }
 
+
+
 @media(min-width:10px){
     .img-banniere .img-banniere6 .img-banniere9 {
         background-size: auto;
@@ -167,6 +169,7 @@ height: 20%;
     font-size: 0.8em;
 }
 
+
 }
 
 
@@ -178,6 +181,7 @@ height: 20%;
     #pres {
         font-size: 0.8em;
     }
+
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -189,6 +193,7 @@ height: 20%;
     #pres {
         font-size: 1.2em;
     }
+
 }
 
  /* Medium devices (tablets, 768px and up) */
@@ -222,7 +227,13 @@ height: 20%;
     }
 
 }
-
+/* .responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+} */
 
 /*Body*/
 
@@ -419,6 +430,7 @@ margin: 10px 50px 0 10px;
 .titreresa{
     justify-content: center;
     padding: 15px;
+    color: #FF1493
 }
 
 .presentation{
