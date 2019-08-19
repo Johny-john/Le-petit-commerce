@@ -176,6 +176,14 @@
     color: deeppink
 }
 
+.num2 {
+    font-size: 33px;
+    line-height: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
 .blockInArticle {
     margin-top: 75px;
     margin-left: 15px;
