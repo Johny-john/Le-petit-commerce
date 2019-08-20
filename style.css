@@ -37,6 +37,9 @@ h1{
     background-color:rgb(224, 220, 220);
     border: 2px solid rgb(224, 67, 146);
 }
+.dropdown{
+    width: -moz-max-content;
+}
 /* image banniere */
 
 .img-banniere{
