@@ -477,3 +477,12 @@ margin-top: 30px;
 .lien{
     color: #FF1493 ;
 }
+
+@media(min-width:375px){
+    #modMedia{
+    background-size: auto !important; 
+    background-position-x: center !important;
+    }#pres {
+        font-size: 0.8em !important;
+    }    
+    }

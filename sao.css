@@ -22,6 +22,7 @@
     background: deeppink;
     float: left;
     margin-right: 15px;
+    margin-top: 47px;
 }
 .trait {
     border-bottom: 1px solid deeppink;
@@ -41,6 +42,15 @@
     float: right;
     margin-top: 10px;
     margin-left: 12px;
+    margin-top: 5px;
+}
+.rectangle3 {
+    width: 5px;
+    height: 60px;
+    background: deeppink;
+    float: left;
+    margin-right: 15px;
+    margin-top: 5px;
 }
 #qsm p {
     text-align: center;
@@ -684,6 +694,10 @@ html {
     font-size: 1.75em; 
 } */
 
+/*******************************************/
+/* event
+/*******************************************/
+
 
 
 
@@ -731,13 +745,13 @@ html {
     -webkit-backface-visibility: hidden !important;
     backface-visibility: hidden;
     margin: 0 auto;
-    position: fixed;
+    
     margin-top: 185px;
     opacity: 0.9;
     
 }
 .logoSurvol{
-    position: fixed;
+    
     top: 50px;
     color: #FF0000;
     margin-top: 185px;
@@ -782,3 +796,22 @@ html {
     text-align: center;
     
 }
+
+/*******************************************/
+/* modifs esPlus
+/*******************************************/
+.aproposUp{
+    margin-bottom: 0rem;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    padding-top: 2px;
+    margin-top: -44px;
+}
+.notreMission{
+    text-align: right;
+}
+
+.apropos{
+    text-align: justify !important; 
+}
+
