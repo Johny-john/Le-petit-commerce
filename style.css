@@ -25,6 +25,9 @@ h1{
     color: rgb(247, 29, 145);
     
 }
+.dropdown-item:hover, .dropdown-item:focus{
+    background-color: #FF1493;
+}
 .logoFemme{
     text-align: center
 }
