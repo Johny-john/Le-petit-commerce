@@ -171,9 +171,12 @@ input[type=checkbox] {
 }
 
 input[type=submit] {
-    background-color: rgb(76, 152, 175);
+    background-color: deeppink;
     color: white;
     border: none;
+    width: 20%;
+    box-shadow:3px 3px 12px #999;
+    
 }
 
 input[type=submit]:hover {
@@ -196,6 +199,9 @@ transform: scale(1.5);
     overflow: hidden;
     /* padding-bottom:56%; */
     /* position:relative; */
+    text-align: center;
+    color: deeppink;
+    margin-bottom: 20px;
 
 }
 .map-container iframe {
