@@ -813,5 +813,16 @@ html {
 
 .apropos{
     text-align: justify !important; 
+/*******************************************/
+/* modifs localisation map
+/*******************************************/
 }
+
+.imgLocalisation{
+    display: block !important;
+    width: 50%;
+    margin: 1px auto;
+    margin-top: 20px;    
+}
+
 
