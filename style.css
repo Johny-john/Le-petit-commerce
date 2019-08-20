@@ -489,6 +489,9 @@ margin-top: 30px;
 .lien{
     color: #FF1493 ;
 }
+.page-footer{
+    background: lightgrey;
+}
 
 @media(min-width:375px){
     #modMedia{
