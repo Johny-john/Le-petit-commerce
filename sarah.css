@@ -311,6 +311,11 @@ transform: scale(1.5);
     height: 500px;
 }
 
+.center-block a{
+    text-decoration: none;
+    color: white;
+}
+
 /*Sarah css*/
 
 /**** CONTAINER1 ****/
