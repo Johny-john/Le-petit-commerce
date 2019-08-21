@@ -1,4 +1,5 @@
 *{
+    
     font-family: 'Prata', serif;
 }
 #ormulaire-ages{
@@ -25,6 +26,9 @@ h1{
     color: rgb(247, 29, 145);
     
 }
+.dropdown-item:hover, .dropdown-item:focus{
+    background-color: #FF1493;
+}
 .logoFemme{
     text-align: center
 }
@@ -32,6 +36,9 @@ h1{
     background: rgb(224, 220, 220);
     background-color:rgb(224, 220, 220);
     border: 2px solid rgb(224, 67, 146);
+}
+.dropdown{
+    width: -moz-max-content;
 }
 /* image banniere */
 
@@ -148,6 +155,8 @@ height: 20%;
     flex-direction: right;
 }
 
+
+
 @media(min-width:10px){
     .localisaton .img-banniere .img-banniere6 .img-banniere9 {
         background-size: auto;
@@ -167,6 +176,7 @@ height: 20%;
     font-size: 0.8em;
 }
 
+
 }
 
 
@@ -178,6 +188,7 @@ height: 20%;
     #pres {
         font-size: 0.8em;
     }
+
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -189,6 +200,7 @@ height: 20%;
     #pres {
         font-size: 1.2em;
     }
+
 }
 
  /* Medium devices (tablets, 768px and up) */
@@ -222,7 +234,13 @@ height: 20%;
     }
 
 }
-
+/* .responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+} */
 
 /*Body*/
 
@@ -419,6 +437,7 @@ margin: 10px 50px 0 10px;
 .titreresa{
     justify-content: center;
     padding: 15px;
+    color: #FF1493
 }
 
 .presentation{
@@ -477,3 +496,17 @@ margin-top: 30px;
 .lien{
     color: #FF1493 ;
 }
+
+.page-footer{
+    background: lightgrey;
+    margin-top: 20px;
+}
+
+@media(min-width:375px){
+    #modMedia{
+    background-size: auto !important; 
+    background-position-x: center !important;
+    }#pres {
+        font-size: 0.8em !important;
+    }    
+    }
