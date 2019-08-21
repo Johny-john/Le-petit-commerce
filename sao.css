@@ -120,6 +120,14 @@
     margin-bottom: 25px;
 }
 
+.img-q8 {
+    background-image: url("img/operatrice1.jpg");
+    height: 321px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+
 @media screen and (min-width: 200px) and (max-width: 990px) {
     .img-q3 {
         background-image: url("img/palnDeTravail65.PNG");
@@ -897,6 +905,19 @@ html {
 }
 #pinkiblinder{
     color: deeppink;
+}
+.titreLocalisation {
+    text-align: center !important;
+    margin-top: 20px;
+    
+    
+}
+.paraLocalisation{
+    margin-top: 20px;
+    text-align: center !important;
+    border: 1px solid deeppink;
+    margin: 0;
+    padding: 0;
 }
 
 
