@@ -112,6 +112,15 @@ h1{
     background-size: cover;
     background-position-y: 37%;
 }
+.img-footer{
+    background-image: url(img/bgLogin.jpg);
+    background-size: cover;
+    background-position-y: 16%;
+    background-position-x: 18%;
+}
+.color-footer{
+    color: white;
+}
 
 
 .collection-femme{
