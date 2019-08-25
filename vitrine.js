@@ -1,10 +1,26 @@
+// // CALENDRIER
+
+// $(function() 
+// {  
+// 	// définit les options par défaut du calendrier
+// 	$.datepicker.setDefaults({ 
+// 		showButtonPanel: true,// affiche des boutons sous le calendrier
+// 		showOtherMonths: true, // affiche les autres mois
+// 		selectOtherMonths: true // possibilités de sélectionner les jours des autres mois
+// 		});
+
+// 	//$("#calendar").datepicker(); // affiche le calendrier par défaut
+// 	$("#calendar").datepicker($.datepicker.regional["fr"]); // affiche le calendrier en fr 
+
+// });
+
 // MESSAGE DEFILANT
 
 var canevas = document.querySelector('canvas');
 
 var contexte = canevas.getContext('2d'); 
 
-var X = canevas.width ; 
+var X = canevas.width; 
 
 var Y = canevas.height; 
 
@@ -44,3 +60,4 @@ document
 function monBlur() {
 this.style.cssText = "background-color:white";
 }
+
