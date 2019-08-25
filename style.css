@@ -112,7 +112,16 @@ h1{
     background-size: cover;
     background-position-y: 37%;
 }
-
+.coach1 li{
+    display: flex;
+    margin: 15px;
+    background-color: rgb(230, 227, 227);
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 5px;
+    justify-content: center; 
+    list-style-type: none;
+    color: #FF1493
+}
 
 
 
