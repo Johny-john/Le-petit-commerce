@@ -1,0 +1,81 @@
+<!-- 
+/**
+
+  The Initial Developer of the Original Code is
+  Matthieu  - http://www.programmation-facile.com/
+  Portions created by the Initial Developer are Copyright (C) 2013
+  the Initial Developer. All Rights Reserved.
+
+  Contributor(s) :
+
+ */
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+ --> 
+<!DOCTYPE html> 
+<html lang="fr"> 
+<head> 
+<title>jQuery UI</title> 
+<meta charset="UTF-8">
+
+<!--- <link href="jquery-ui-1.10.4/css/ui-lightness/jquery-ui-1.10.4.css" rel="stylesheet"> -->
+<link href="jquery-ui-1.10.4/css/custom-theme/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+<script src="jquery-ui-1.10.4/js/jquery-1.10.2.js"></script>
+<script src="jquery-ui-1.10.4/js/jquery-ui-1.10.4.js"></script>
+
+<!-- recupere les langues pour la traduction du calendrier -->
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/i18n/jquery-ui-i18n.min.js"></script> 
+
+<script>
+
+/**
+ * Création d'un calendrier
+ * @return {[type]} [description]
+ */
+$(function() 
+{  
+	// définit les options par défaut du calendrier
+	$.datepicker.setDefaults({ 
+		showButtonPanel: true,// affiche des boutons sous le calendrier
+		showOtherMonths: true, // affiche les autres mois
+		selectOtherMonths: true // possibilités de sélectionner les jours des autres mois
+		});
+
+	//$("#calendar").datepicker(); // affiche le calendrier par défaut
+	$("#calendar").datepicker($.datepicker.regional["fr"]); // affiche le calendrier en fr 
+
+});
+
+
+</script>
+
+
+<style>
+body{
+	font-size: 12px;
+	font-family: Arial;
+}
+
+/* modifie la taille du calendrier */
+div.ui-datepicker { font-size: 13px;} 
+
+</style>
+
+</head>
+
+<body>
+
+<header> 
+	<h1>Developpement Facile</h1>
+</header>
+
+<p><label for="calendar">Choisissez votre Date :</label> 
+<input type="text" id="calendar"></p>
+
+<br /><br />
+<footer> 
+	<hr> 
+	<p>Copyright www.Developpement-Facile.com 2014</p>  
+</footer> 
+</body> 
+</html>
