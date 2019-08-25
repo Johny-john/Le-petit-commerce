@@ -45,6 +45,7 @@ canvas {
     background-color: deeppink;
     color: white;
     text-align: center;
+    height: 40px; /*ligne rose sous barre defilante de l'indexne couvre pas en entier le titre collection homme femme*/
 }
 
 .card-body p {
